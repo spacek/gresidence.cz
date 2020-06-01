@@ -1,0 +1,2801 @@
+{
+    "A101": [
+      {
+        "id": "1.01",
+        "name": "Předsíň",
+        "size": 4.88
+      },
+      {
+        "id": "1.02",
+        "name": "Obývací pokoj s kuchyní",
+        "size": 19.54
+      },
+      {
+        "id": "1.03",
+        "name": "Ložnice",
+        "size": 12.96
+      },
+      {
+        "id": "1.04",
+        "name": "Koupelna",
+        "size": 4.34
+      },
+      {
+        "id": "1.05",
+        "name": "Terasa",
+        "size": 19.01
+      }
+     
+    ],
+    "A102": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.37
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Terasa",
+          "size": 11.23
+        }
+       
+     
+        
+      ],"A103": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 6.84
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size":23.25
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.47
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.81
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 17.88
+        }
+        
+      ],"A104": [
+        {
+          "id": "1.01",
+          "name": "Předíň",
+          "size": 4.66
+        },
+        {
+          "id": "1.02",
+          "name": "Obyvací pokoj s kuchyní",
+          "size": 18.14
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.58
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.04",
+          "name": "WC",
+          "size": 5
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 18.85
+        }
+        
+      ],"A105": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.36
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 16.58
+        }
+        
+      ],"A106": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.78
+        },
+        {
+          "id": "1.02",
+          "name": "Obyvací pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.44
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 18.9
+        }
+       
+        
+      ],"A107": [
+        {
+          "id": "1.01",
+          "name": "Předíň",
+          "size": 9.66
+        },
+        {
+          "id": "1.02",
+          "name": "Obyvací pokoj s kuchyní",
+          "size": 27.9
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.11
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 17.12
+        },
+        {
+          "id": "1.06",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.07",
+          "name": "Terasa",
+          "size": 27.91
+        }
+        
+      ],"A108": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.48
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Terasa",
+          "size": 23.85
+        }
+        
+    
+      ],"A201": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.92
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 19.61
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.54
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 12.04
+        }
+        
+
+      ],"A202": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.04
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.62
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 7.41
+        }
+      ],"A203": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 6.84
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 23.25
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.47
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.81
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 10.48
+        }
+      ],"A204": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.56
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.2
+        }
+        
+        
+      ],"A205": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.36
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.63
+        }
+        
+          
+        
+      ],"A206": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.68
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.24
+        }
+        
+          
+        
+      ],"A207": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 11.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 27.27
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 5.01
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.06",
+          "name": "Ložnice",
+          "size": 13.67
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.08",
+          "name": "Balkon",
+          "size": 16.26
+        }
+       
+      ],"A208": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.87
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Balkon",
+          "size": 14.07
+        }
+        
+      ],"A301": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.92
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 19.61
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.54
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 12.04
+        }
+        
+      ],"A302": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.04
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.62
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 7.41
+        }
+      ],"A303": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 6.84
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 23.25
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.47
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.81
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 10.48
+        }
+      ],"A304": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.56
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.2
+        }
+        
+      ],"A305": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.36
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.63
+        }
+      ],"A306": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.68
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.24
+        }
+        
+      ],"A307": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 11.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 27.27
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 5.01
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.06",
+          "name": "Ložnice",
+          "size": 13.67
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.08",
+          "name": "Balkon",
+          "size": 16.26
+        }
+        
+      ],"A308": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.87
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Balkon",
+          "size": 14.07
+        }
+        
+      ],"A401": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 14.65
+        },
+        {
+          "id": "1.02",
+          "name": "Pokoj",
+          "size": 10.05
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.01
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.39
+        },
+        {
+          "id": "1.05",
+          "name": "Koupelna",
+          "size": 6.97
+        },
+        {
+          "id": "1.06",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 30.07
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 11.21
+        },
+        {
+          "id": "1.08",
+          "name": "Šatna",
+          "size": 4.41
+        }
+      ],"A402": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 12.46
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 23.02
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.08
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.73
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 22.56
+        }
+      ],"A403": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 15.3
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 12.9
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.65
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.38
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 10.03
+        },
+        {
+          "id": "1.06",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 28.44
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 11.88
+        },
+        {
+          "id": "1.08",
+          "name": "Šatna",
+          "size": 4.53
+        }
+      ],"B101": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.88
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 19.54
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.96
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 19.01
+        }
+      ],"B102": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.0
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.37
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Terasa",
+          "size": 11.23
+        }
+      ],"B103": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 6.84
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 23.25
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.47
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.81
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 17.88
+        }
+      ],"B104": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.66
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.14
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.58
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 18.85
+        }
+        
+      ],"B105": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.18
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 16.58
+        }
+      ],"B106": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.78
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.44
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna ",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 18.9
+        }
+        
+      ],"B107": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 9.66
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 27.9
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.11
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 17.12
+        },
+        {
+          "id": "1.06",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.07",
+          "name": "Terasa",
+          "size": 27.91
+        }
+        
+      ],"B108": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 18.48
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Terasa",
+          "size": 23.85
+        }
+      ],"B201": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.92
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 19.61
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.54
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 12.04
+        }
+      ],"B202": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.04
+        },
+        {
+          "id": "1.02",
+          "name": "Obývací pokoj s kuchyní",
+          "size": 16.62
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 7.41
+        }
+      ],"B203": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 6.84
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 23.25
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.47
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.81
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 10.48
+        }
+      ],"B204": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.56
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.2
+        }
+      ],"B205": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.18
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.63
+        }
+      ],"B206": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.68
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size":13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.24
+        }
+      ],"B207": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 11.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 27.27
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 5.01
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.06",
+          "name": "Ložnice",
+          "size": 13.67
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.08",
+          "name": "Balkon",
+          "size": 16.26
+        }
+      ],"B208": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.87
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Balkon",
+          "size": 14.07
+        }
+      ],"B301": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.92
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.61
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.54
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.43
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 12.04
+        }
+      ],"B302": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.04
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.62
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        }
+      ],"B303": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 6.84
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 23.25
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.47
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.81
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 10.48
+        }
+      ],"B304": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.56
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.2
+        }
+      ],"B305": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.18
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.63
+        }
+      ],"B306": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.68
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.24
+        }
+      ],"B307": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 11.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 27.27
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 5.01
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.06",
+          "name": "Ložnice",
+          "size": 13.67
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.08",
+          "name": "Balkon",
+          "size": 16.26
+        }
+      ],"B308": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.87
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Balkon",
+          "size": 14.07
+        }
+      ],"B401": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 14.65
+        },
+        {
+          "id": "1.02",
+          "name": "Pokoj",
+          "size": 10.05
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.01
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.39
+        },
+        {
+          "id": "1.05",
+          "name": "Koupelna",
+          "size": 6.97
+        },
+        {
+          "id": "1.06",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 30.07
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 11.21
+        },
+        {
+          "id": "1.08",
+          "name": "Šatna",
+          "size": 4.41
+        }
+      ],"B402": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 12.46
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 23.02
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.08
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.73
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size":22.56
+        }
+      ],"B403": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 15.3
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 12.9
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.65
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.38
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 10.03
+        },
+        {
+          "id": "1.06",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 28.44
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 11.88
+        },
+        {
+          "id": "1.08",
+          "name": "Šatna",
+          "size": 4.53
+        }
+      ],"C101": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.43
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.67
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.6
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.68
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 17.98
+        }
+      ],"C102": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.82
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 15.97
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Terasa",
+          "size": 10.97
+        }
+      ],"C103": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 5.88
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 20.59
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.63
+        },
+        {
+          "id": "1.04",
+          "name": "Ložnice",
+          "size": 12.68
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 16.47
+        }
+      ],"C104": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 20.48
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.64
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.68
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 18.69
+        }
+      ],"C105": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.36
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 16.6
+        }
+      ],"C106": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.78
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.53
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.44
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 18.9
+        }
+      ],"C107": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 9.66
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 27.9
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.11
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 17.13
+        },
+        {
+          "id": "1.06",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.07",
+          "name": "Terasa",
+          "size": 27.91
+        }
+      ],"C108": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.62
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.48
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.16
+        },
+        {
+          "id": "1.07",
+          "name": "Terasa",
+          "size": 23.85
+        }
+      ],"C201": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.38
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.12
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.68
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.25
+        }
+      ],"C202": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.85
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.22
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 7.68
+        }
+      ],"C203": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 7.19
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 20.74
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 5.74
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 4.67
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 12.01
+        },
+        {
+          "id": "1.06",
+          "name": "Balkon",
+          "size": 10.81
+        }
+      ],"C204": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 20.48
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.64
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.68
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.09
+        },
+        {
+          "id": "1.05",
+          "name": "WC",
+          "size": 5
+        }
+      ],"C205": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.36
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.5
+        }
+      ],"C206": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.68
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.24
+        }
+      ],"C207": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 11.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 27.27
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 5.01
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.06",
+          "name": "Ložnice",
+          "size": 13.67
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.08",
+          "name": "Balkon",
+          "size": 16.26
+        }
+      ],"C208": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.67
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.87
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.11
+        },
+        {
+          "id": "1.07",
+          "name": "Balkon",
+          "size": 14.07
+        }
+      ],"C301": [
+        {
+          "id": "1.01",
+          "name": "Přesíň",
+          "size": 3.38
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.12
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.68
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.25
+        }
+      ],"C302": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.85
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.22
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 7.68
+        }
+      ],"C303": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 7.19
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 20.74
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 5.74
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 4.67
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 12.01
+        },
+        {
+          "id": "1.06",
+          "name": "Balkon",
+          "size": 10.81
+        }
+      ],"C304": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 20.48
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.64
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.68
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.09
+        }
+      ],"C305": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 2.93
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 16.83
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.36
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.51
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 11.63
+        }
+      ],"C306": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.68
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.77
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.16
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 4.34
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 13.24
+        }
+      ],"C307": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 11.35
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 27.27
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.5
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 5.01
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 9.96
+        },
+        {
+          "id": "1.06",
+          "name": "Ložnice",
+          "size": 13.67
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 10.51
+        },
+        {
+          "id": "1.08",
+          "name": "Balkon",
+          "size": 16.26
+        }
+      ],"C308": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 4.67
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.87
+        },
+        {
+          "id": "1.03",
+          "name": "Šatna",
+          "size": 3.76
+        },
+        {
+          "id": "1.04",
+          "name": "Pracovna",
+          "size": 6.29
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 14.53
+        },
+        {
+          "id": "1.06",
+          "name": "Koupelna",
+          "size": 5.11
+        },
+        {
+          "id": "1.07",
+          "name": "Balkon",
+          "size": 14.07
+        }
+      ],"C401": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 14.43
+        },
+        {
+          "id": "1.02",
+          "name": "Pokoj",
+          "size": 14.67
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.24
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.73
+        },
+        {
+          "id": "1.05",
+          "name": "Ložnice",
+          "size": 10.14
+        },
+        {
+          "id": "1.06",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 30.61
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 11.21
+        },
+        {
+          "id": "1.08",
+          "name": "Šatna",
+          "size": 4.41
+        }
+      ],"C402": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 12.41
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 12.73
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 4.13
+        },
+        {
+          "id": "1.04",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 23.02
+        },
+        {
+          "id": "1.05",
+          "name": "Terasa",
+          "size": 22.56
+        }
+      ],"C403": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 15.3
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 13.75
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna ",
+          "size": 4.95
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 6.78
+        },
+        {
+          "id": "1.05",
+          "name": "Pokoj",
+          "size": 10.64
+        },
+        {
+          "id": "1.06",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 29.14
+        },
+        {
+          "id": "1.07",
+          "name": "Pokoj",
+          "size": 11.88
+        },
+        {
+          "id": "1.08",
+          "name": "Šatna",
+          "size": 4.53
+        }
+        
+      ],"D101": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.11
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.85
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.6
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.76
+        }
+      ],"D102": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 12.21
+        },
+        {
+          "id": "1.03",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 25.31
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        }
+      ],"D103": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.42
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.12
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 3.71
+        }
+        
+      ],"D104": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 12.21
+        },
+        {
+          "id": "1.03",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 25.31
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        }
+      ],"D105": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.51
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.85
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.60
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        }
+      ],"D201": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.11
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.85
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.6
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.76
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 8.58
+        }
+      ],"D202": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 25.31
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.21
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 2.99
+        }
+      ],"AD203": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.12
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 6.09
+        }
+      ],"D204": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 25.31
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 12.21
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 2.99
+        }
+      ],"D205": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.15
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.85
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.6
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 8.58
+        }
+        
+      ],"D301": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.11
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.85
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.6
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.76
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 8.58
+        }
+      ],"D302": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 12.21
+        },
+        {
+          "id": "1.02",
+          "name": "Ložnice",
+          "size": 25.31
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 2.99
+        }
+      ],"D303": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.42
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 19.12
+        },
+        {
+          "id": "1.03",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.04",
+          "name": "Balkon",
+          "size": 6.09
+        }
+      ],"D304": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.48
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 12.21
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 25.31
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.71
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 8.58
+        }
+      ],"D305": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 3.11
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 18.85
+        },
+        {
+          "id": "1.03",
+          "name": "Ložnice",
+          "size": 13.6
+        },
+        {
+          "id": "1.04",
+          "name": "Koupelna",
+          "size": 3.76
+        },
+        {
+          "id": "1.05",
+          "name": "Balkon",
+          "size": 8.58
+        }
+      ],"D401": [
+        {
+          "id": "1.01",
+          "name": "Předsíň",
+          "size": 12.11
+        },
+        {
+          "id": "1.02",
+          "name": "Obývaci pokoj s kuchyní",
+          "size": 29.12
+        },
+        {
+          "id": "1.03",
+          "name": "WC",
+          "size": 1.63
+        },
+        {
+          "id": "1.04",
+          "name": "Pokoj",
+          "size": 9.22
+        },
+        {
+          "id": "1.05",
+          "name": "Koupelna",
+          "size": 5.19
+        },
+        {
+          "id": "1.06",
+          "name": "Pokoj",
+          "size": 8.25
+        },
+        {
+          "id": "1.07",
+          "name": "Ložnice",
+          "size": 16.19
+        },
+        {
+          "id": "1.08",
+          "name": "Terasa",
+          "size": 124.76
+        }
+    ]
+}

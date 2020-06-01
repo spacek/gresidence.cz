@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+
+<%- include('partials/_head') -%>
+
+<body>
+
+<div class="remodal-bg">
+
+    <%- include('partials/_header') -%>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="#" class="home">Domů</a>
+            <span class="divider">&gt;</span>
+            <a href="/dum">Výběr budovy</a>
+            <% if (house) { %>
+                <span class="divider">&gt;</span>
+                <a href="/dum/<%= String(house).toLowerCase(); %>">Budova <%= String(house).toLocaleUpperCase(); %></a>
+            <% } %>
+            <% if (floor) { %>
+                <span class="divider">&gt;</span>
+                <span><%= String(floor).toLocaleUpperCase(); %>. Patro</span>
+            <% } %>
+        </div>
+    </div>
+
+    <section class="section-select-apartment">
+        <div class="heading">
+            <% if (!house) { %>
+            <h1>G Residence</h1>
+            <% } else if(house && !floor) { %>
+            <h1>Budova <%= house %></h1>
+            <% } else if(house && floor) { %>
+            <h1>Budova <%= house %>, <%= floor %>. patro</h1>
+            <% } %>
+        </div>
+
+        <!--    divy se třídou "selection" - standardně skryté, po přidání třídy "active" se zobrazí    -->
+
+
+        <!--    VÝBĚR BYTŮ V JEDNOTLIVÝCH PATRECH    -->
+
+        <% if (!house) { %>
+            <div class="selection active">
+                <div class="menu">
+                    <a href="/dum/a" class="button building building-a" data-id="a">Budova A</a>
+                    <a href="/dum/b" class="button building building-b" data-id="b">Budova B</a>
+                    <a href="/dum/c" class="button building building-c" data-id="c">Budova C</a>
+                    <a href="/dum/d" class="button building building-d" data-id="d">Budova D</a>
+                    <a href="/cenik?only_available=1" class="button">Ceník bytů</a>
+                </div>
+                <div class="map">
+                    <img src="/images/mapa-domy.jpg" alt="">
+                    <svg viewBox="0 0 658.14508 370.20661" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="transparent">
+                            <path onclick="window.location = '/dum/d'" class="polygon building-d building" data-id="d"
+                                  d="m192.823 146.81 17.417-14.917 1.917.333 3.833-3.75 14.5 3.334 5.583-5 16.25 3.75.417 6.25 12.75 2.916.25 4.917 13.833 3 1.667 33.166-14.75 18.667-4.5-1.333-6.917 5.25-14-2.834-1.75 1.917-31.333-6.5-.083-3.75-12.834-3.333-4.333-34.917 3-2.75z"/>
+                            <path onclick="window.location = '/dum/c'" class="polygon building-c building" data-id="c"
+                                  d="m320.573 150.56 52 11.624 4.5-6.375 19 4.25-.125 7.25 54.625 12.625-.25 2.625 7.5 1.75-8.125 20.625-3.75 33-2 4.625-1.125 7.625-3.375 7.5-28.625-8 .5-9.125-8.625-2 .375-4.5-62.5-11.25.125-7.875-22.375-4.375-4 7.625-19.375-3.125.125-1.75 4.125-4.875-1.5-30 .625-1.125v-6.5l9.125-11.125 5.125.625z"/>
+                            <path onclick="window.location = '/dum/b'" class="polygon building-b building" data-id="b"
+                                  d="m460.74 176.809 7.666 1.834 2.334-4 60.999 14 2.667-8 22.5 5.166-1.667 8 67.334 14.334v4.833l4.5 1.167-.334 9.166 6.167 1.5-.667 14.834-8.666 25.5-4.334-1.667-5.333 16-.833 7.333-1.167 2.834-169.083-39.459 1.125-7.625 2-4.625 3.75-33z"/>
+                            <path onclick="window.location = '/dum/a'" class="polygon building-a building" data-id="a"
+                                  d="m253.74 207.976 60.583 10.208 4-7.625 22.375 4.375-.125 7.875 62.5 11.25-.375 4.5 8.625 2-.5 9.125 3.583 1.292-2.5 25-4 16.667h-4.166l-9.334 29.999-163.833-34.166-1-5.667 4.5-5-3.5-33.666.667-1.5-.5-8.667 8.667-14z"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        <% } %>
+
+        <!--    VÝBĚR PATER V JEDNOTLIVÝCH BUDOVÁCH    -->
+
+        <% if (house === 'A' && !floor) { %>
+            <div class="selection active">
+                <div class="menu">
+                    <a href="/dum/a/1" class="button floor floor-1" data-id="1">1. patro</a>
+                    <a href="/dum/a/2" class="button floor floor-2" data-id="2">2. patro</a>
+                    <a href="/dum/a/3" class="button floor floor-3" data-id="3">3. patro</a>
+                    <a href="/dum/a/4" class="button floor floor-4" data-id="4">4. patro</a>
+                    <a href="/cenik?only_available=1" class="button">Ceník bytů</a>
+                </div>
+                <div class="map">
+                    <img src="/images/patro_a.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 658.14508 370.20661">
+                        <defs>
+                            <style>.a {
+                                    fill: #23325d;
+                                }
+
+                                .b {
+                                    fill: none;
+                                }</style>
+                        </defs>
+                        <polygon onclick="window.location = '/dum/a/1'" class="polygon floor floor-1" data-id="1"
+                                 points="606.25 273.886 605.982 249.516 213.656 242.018 186.876 248.445 186.609 274.154 212.317 273.886 606.25 273.886"/>
+                        <polygon onclick="window.location = '/dum/a/2'" class="polygon floor floor-2" data-id="2"
+                                 points="605.982 249.516 610.267 249.516 610.267 237.466 606.518 236.662 605.715 219.791 214.192 204.258 204.283 207.74 187.144 206.669 176.7 210.15 176.968 247.106 186.876 248.445 213.656 242.018 605.982 249.516"/>
+                        <polygon onclick="window.location = '/dum/a/3'" class="polygon floor floor-3" data-id="3"
+                                 points="176.968 176.407 186.876 169.712 202.677 169.444 212.853 163.821 605.982 185.78 606.518 206.669 611.874 208.008 611.874 216.845 605.715 219.791 214.192 204.258 204.283 207.74 187.144 206.669 176.7 210.15 176.968 176.407"/>
+                        <polygon onclick="window.location = '/dum/a/4'" class="polygon floor floor-4" data-id="4"
+                                 points="606.25 177.211 605.982 185.78 212.853 163.821 202.677 169.444 186.876 169.712 176.968 176.407 176.968 166.231 186.609 155.519 202.944 157.661 206.961 152.573 207.497 142.397 228.117 120.705 382.37 135.166 408.614 122.847 460.835 128.203 461.371 142.932 573.846 153.109 573.043 172.658 606.25 177.211"/>
+                        <rect class="b" width="658.14508" height="370.20661"/>
+                    </svg>
+                </div>
+            </div>
+        <% } %>
+        <% if (house === 'B' && !floor) { %>
+            <div class="selection active">
+                <div class="menu">
+                    <a href="/dum/b/1" class="button floor floor-1" data-id="1">1. patro</a>
+                    <a href="/dum/b/2" class="button floor floor-2" data-id="2">2. patro</a>
+                    <a href="/dum/b/3" class="button floor floor-3" data-id="3">3. patro</a>
+                    <a href="/dum/b/4" class="button floor floor-4" data-id="4">4. patro</a>
+                    <a href="/cenik?only_available=1" class="button">Ceník bytů</a>
+                </div>
+                <div class="map">
+                    <img src="/images/patro_b.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 658.14508 370.20661">
+                        <defs>
+                            <style>.a {
+                                    fill: #23325d;
+                                }
+
+                                .b {
+                                    fill: none;
+                                }</style>
+                        </defs>
+                        <polygon onclick="window.location = '/dum/b/1'" class="polygon floor floor-1" data-id="1"
+                                 points="224.229 268.919 616.979 269.669 616.729 263.669 602.229 262.669 601.479 243.919 217.729 237.419 217.729 243.169 219.479 242.919 219.979 251.919 224.479 251.919 224.229 268.919"/>
+                        <polygon onclick="window.location = '/dum/b/2'" class="polygon floor floor-2" data-id="2"
+                                 points="217.479 199.669 601.729 214.919 601.229 231.919 613.229 232.169 612.979 243.919 601.479 243.919 217.729 237.419 217.479 199.669"/>
+                        <polygon onclick="window.location = '/dum/b/3'" class="polygon floor floor-3" data-id="3"
+                                 points="610.979 213.419 601.729 214.919 217.479 199.669 217.479 156.669 600.729 182.669 600.979 201.169 611.479 202.919 610.979 213.419"/>
+                        <polygon onclick="window.location = '/dum/b/4'" class="polygon floor floor-4" data-id="4"
+                                 points="217.479 156.669 217.479 128.919 229.479 116.419 383.979 130.419 409.479 118.419 462.229 123.419 462.229 138.419 574.229 148.169 574.729 170.169 601.479 172.919 600.729 182.669 217.479 156.669"/>
+                        <rect class="b" width="658.14508" height="370.20661"/>
+                    </svg>
+                </div>
+            </div>
+        <% } %>
+        <% if (house === 'C' && !floor) { %>
+            <div class="selection active">
+                <div class="menu">
+                    <a href="/dum/c/1" class="button floor floor-1" data-id="1">1. patro</a>
+                    <a href="/dum/c/2" class="button floor floor-2" data-id="2">2. patro</a>
+                    <a href="/dum/c/3" class="button floor floor-3" data-id="3">3. patro</a>
+                    <a href="/dum/c/4" class="button floor floor-4" data-id="4">4. patro</a>
+                    <a href="/cenik?only_available=1" class="button">Ceník bytů</a>
+                </div>
+                <div class="map">
+                    <img src="/images/patro_c.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 658.14508 370.20661">
+                        <defs>
+                            <style>.a {
+                                    fill: #23325d;
+                                }
+
+                                .b {
+                                    fill: none;
+                                }</style>
+                        </defs>
+                        <polygon onclick="window.location = '/dum/c/1'" class="polygon floor floor-1" data-id="1"
+                                 points="218.887 273.266 616.136 276.516 614.886 269.516 602.386 270.016 602.386 250.766 210.887 243.516 190.887 252.266 190.387 276.766 218.887 273.266"/>
+                        <polygon onclick="window.location = '/dum/c/2'" class="polygon floor floor-2" data-id="2"
+                                 points="601.636 223.766 212.137 204.266 206.137 206.016 189.637 206.266 180.637 211.016 180.637 249.516 197.637 250.016 210.887 243.516 602.386 250.766 601.636 223.766"/>
+                        <polygon onclick="window.location = '/dum/c/3'" class="polygon floor floor-3" data-id="3"
+                                 points="601.636 189.766 212.637 162.016 206.387 165.266 188.637 165.266 181.137 175.766 180.637 211.016 189.637 206.266 206.137 206.016 212.137 204.266 601.636 223.766 601.636 189.766"/>
+                        <polygon onclick="window.location = '/dum/c/4'" class="polygon floor floor-4" data-id="4"
+                                 points="601.636 180.516 601.636 189.766 212.637 162.016 206.387 165.266 188.637 165.266 181.137 175.766 180.387 168.516 189.387 156.766 205.887 157.766 210.137 152.266 209.637 147.266 230.137 123.016 408.637 139.516 408.637 144.516 427.387 146.016 435.887 142.266 577.886 155.016 578.386 178.016 601.636 180.516"/>
+                        <rect class="b" width="658.14508" height="370.20661"/>
+                    </svg>
+                </div>
+            </div>
+        <% } %>
+        <% if (house === 'D' && !floor) { %>
+            <div class="selection active">
+                <div class="menu">
+                    <a href="/dum/d/1" class="button floor floor-1" data-id="1">1. patro</a>
+                    <a href="/dum/d/2" class="button floor floor-2" data-id="2">2. patro</a>
+                    <a href="/dum/d/3" class="button floor floor-3" data-id="3">3. patro</a>
+                    <a href="/dum/d/4" class="button floor floor-4" data-id="4">4. patro</a>
+                    <a href="/cenik?only_available=1" class="button">Ceník bytů</a>
+                </div>
+                <div class="map">
+                    <img src="/images/patro_d.jpg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 658.14508 370.20661">
+                        <defs>
+                            <style>.a {
+                                    fill: #23325d;
+                                }
+
+                                .b {
+                                    fill: none;
+                                }</style>
+                        </defs>
+                        <polygon onclick="window.location = '/dum/d/1'" class="polygon floor floor-1" data-id="1"
+                                 points="268.919 295.103 304.669 299.353 537.168 298.353 537.168 250.103 303.919 246.103 270.169 250.353 268.919 295.103"/>
+                        <polygon onclick="window.location = '/dum/d/2'" class="polygon floor floor-2" data-id="2"
+                                 points="536.668 218.853 536.668 250.103 303.919 246.103 270.169 250.353 270.169 219.603 303.419 208.603 536.668 218.853"/>
+                        <polygon onclick="window.location = '/dum/d/3'" class="polygon floor floor-3" data-id="3"
+                                 points="270.419 185.103 270.419 219.603 303.419 208.603 536.668 218.853 536.668 183.603 304.669 170.103 270.419 185.103"/>
+                        <polygon onclick="window.location = '/dum/d/4'" class="polygon floor floor-4" data-id="4"
+                                 points="270.919 171.353 270.419 185.103 304.669 170.103 536.668 183.603 536.668 171.853 495.418 168.103 495.418 142.103 459.418 138.353 459.418 125.103 404.669 119.353 380.419 130.353 334.669 126.353 303.669 144.603 303.169 153.353 270.919 171.353"/>
+                        <rect class="b" width="658.14508" height="370.20661"/>
+                    </svg>
+                </div>
+            </div>
+        <% } %>
+
+        <!--    VÝBĚR BYTŮ V JEDNOTLIVÝCH PATRECH    -->
+        <% if (house && floor) { %>
+        <script type="text/javascript">
+            var flatsData = <%- flatsData %>;
+        </script>
+            <div class="selection active">
+                <div class="menu">
+                    <a href="/dum/<%= String(house).toLowerCase(); %>/1" class="button">1. patro</a>
+                    <a href="/dum/<%= String(house).toLowerCase(); %>/2" class="button">2. patro</a>
+                    <a href="/dum/<%= String(house).toLowerCase(); %>/3" class="button">3. patro</a>
+                    <a href="/dum/<%= String(house).toLowerCase(); %>/4" class="button">4. patro</a>
+                    <a href="/cenik?only_available=1" class="button">Ceník bytů</a>
+                </div>
+                <div class="legend">
+                    <p class="free">Volný</p>
+                    <p class="reserved">Rezervováno</p>
+                    <p class="sold">Prodáno</p>
+                </div>
+                <div class="map interactive">
+                    <img src="/images/byty/vyberbytu_<%= String(house).toLowerCase(); %>_<%= String(floor).toLowerCase(); %>np_podklad.svg"
+                         alt="">
+                    <%- floorSvg %>
+                </div>
+            </div>
+        <% } %>
+
+    </section>
+
+    <%- include('partials/_footer') -%>
+    <%- include('partials/_remodal') -%>
+
+</div>
+
+</body>
+
+</html>

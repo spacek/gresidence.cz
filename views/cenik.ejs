@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<%- include('partials/_head') -%>
+
+<body>
+
+<div class="remodal-bg">
+
+    <%- include('partials/_header') -%>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="#" class="home">Domů</a>
+            <span class="divider">&gt;</span>
+            <span>Ceník bytů</span>
+        </div>
+    </div>
+
+    <section class="section-pricelist">
+        <div class="container">
+            <h1>Ceník bytů G Residence</h1>
+
+            <div class="pricelist-filter">
+                <h3>Filtr zobrazení</h3>
+                <div class="buttons-container">
+                    <a href="./cenik?size1kk=<%= size1kk ? 0 : 1 %>&size2kk=<%= size2kk ? 1 : 0 %>&size3kk=<%= size3kk ? 1 : 0 %>&size4kk=<%= size4kk ? 1 : 0 %>&only_available=<%= onlyAvailable ? 1 : 0 %>" <%if (size1kk) { %> class="active" <% } %>>1 + kk</a>
+                    <a href="./cenik?size1kk=<%= size1kk ? 1 : 0 %>&size2kk=<%= size2kk ? 0 : 1 %>&size3kk=<%= size3kk ? 1 : 0 %>&size4kk=<%= size4kk ? 1 : 0 %>&only_available=<%= onlyAvailable ? 1 : 0 %>" <%if (size2kk) { %> class="active" <% } %>>2 + kk</a>
+                    <a href="./cenik?size1kk=<%= size1kk ? 1 : 0 %>&size2kk=<%= size2kk ? 1 : 0 %>&size3kk=<%= size3kk ? 0 : 1 %>&size4kk=<%= size4kk ? 1 : 0 %>&only_available=<%= onlyAvailable ? 1 : 0 %>" <%if (size3kk) { %> class="active" <% } %>>3 + kk</a>
+                    <a href="./cenik?size1kk=<%= size1kk ? 1 : 0 %>&size2kk=<%= size2kk ? 1 : 0 %>&size3kk=<%= size3kk ? 1 : 0 %>&size4kk=<%= size4kk ? 0 : 1 %>&only_available=<%= onlyAvailable ? 1 : 0 %>" <%if (size4kk) { %> class="active" <% } %>>4 + kk</a>
+
+                    <a href="./cenik?only_available=<%= onlyAvailable ? 0 : 1 %>&size1kk=<%= size1kk ? 1 : 0 %>&size2kk=<%= size2kk ? 1 : 0 %>&size3kk=<%= size3kk ? 1 : 0 %>&size4kk=<%= size4kk ? 1 : 0 %>"  <%if (onlyAvailable == 1) { %> class="active" <% } %>>Jen dostupné</a>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table id="table-pricelist" class="display">
+                    <thead>
+                    <tr>
+                        <th>Byt</th>
+                        <th>Budova</th>
+                        <th>Podlahy (m<sup>2</sup>)</th>
+                        <th>Dispozice</th>
+                        <th>Terasa (m<sup>2</sup>)</th>
+                        <th>Cena s&nbsp;DPH</th>
+                        <th>Dostupnost</th>
+                        <th class="no-sort"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <% gresApts.records.forEach((element) => { %>
+                        <tr class="<%if (element.Availability__c !== 'Available') { %>sold<% } %>">
+                            <td><%= element.Unit_Name__c %></td>
+                            <td><%= element.Building_Name__c %></td>
+                            <td><%= element.Floor_Size__c %></td>
+                            <td><%= element.Appt_Object_Type__c %></td>
+                            <td><%= element.Balcony_Terrace_Footage__c %></td>
+                            <td>
+                                <%if (element.Availability__c === 'Available') { %>
+                                    <%= String(element.Price_incl_VAT__c).replace(/(.)(?=(\d{3})+$)/g,'$1 ') %>,- Kč
+                                <% } %>
+
+                            </td>
+                            <td>
+                                <%if (element.Availability__c === 'Available') { %>
+                                    Dostupné
+                                <% } else if (element.Availability__c === 'SBK signed') { %>
+                                    Prodáno
+                                <% } else if (element.Availability__c === 'Purchase Contract') { %>
+                                    Prodáno
+                                <% } else if (element.Availability__c === 'Sold') { %>
+                                    Prodáno
+                                <% } else if (element.Availability__c === 'Future Contract') { %>
+                                    Prodáno
+                                <% } else if (element.Availability__c === 'Reserved') { %>
+                                    Rezervováno
+                                <% } else if (element.Availability__c === 'Reservation Contract') { %>
+                                    Rezervováno
+                                <% } else if (element.Availability__c === 'Pre-Reserved') { %>
+                                    Ústní rezervace
+                                <% } else { %>
+                                    <%= element.Availability__c %>
+                                <% } %>
+                            </td>
+                            <td>
+                                <%if (element.Availability__c === 'Available') { %>
+                                    <a href="/byt/<%= element.Unit_Name__c.toLowerCase() %>" class="button">Detail</a>
+                                <% } %>
+                            </td>
+                        </tr>
+                    <% }) %>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+
+    <%- include('partials/_footer') -%>
+    <%- include('partials/_remodal') -%>
+
+</div>
+
+</body>
+
+</html>

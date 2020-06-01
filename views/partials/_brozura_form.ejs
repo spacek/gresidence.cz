@@ -1,0 +1,84 @@
+<form action="createBrozuraLead" method="post">
+    <fieldset>
+
+        <div class="mdc-text-field mdc-text-field--outlined full-width-input ">
+
+            <input type="text" name="FirstName" id="tf-outlined"
+                   class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="tf-outlined" class="mdc-floating-label">Jméno</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+
+
+        <div class="mdc-text-field mdc-text-field--outlined full-width-input ">
+
+            <input type="text" name="LastName" id="tf-outlined"
+                   class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="tf-outlined" class="mdc-floating-label">Příjmení</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+
+        <div class="mdc-text-field mdc-text-field--outlined full-width-input ">
+
+            <input type="email" name="Email" id="tf-outlined"
+                   class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="tf-outlined" class="mdc-floating-label">E-mail</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+
+
+        <div class="mdc-text-field mdc-text-field--outlined full-width-input ">
+
+            <input type="text" name="Phone" id="tf-outlined"
+                   class="mdc-text-field__input">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="tf-outlined" class="mdc-floating-label">Telefon</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+
+
+        <div class="mdc-text-field mdc-text-field--outlined full-width-input  mdc-text-field--textarea ">
+
+                            <textarea name="Description" id="Description" class="mdc-text-field__input" rows="8"
+                                      cols="40"></textarea>
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="tf-outlined" class="mdc-floating-label">Vaše zpráva</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+
+        <p class="checkbox" style="position:relative;">
+            <input type="checkbox" required name="GDPR__c" id="terms"/>
+            <label for="terms">Souhlasím s <a href="#terms-popup">obchodními podmínkami</a>*</label>
+        </p>
+        <!--                        <p class="checkbox mb30">-->
+        <!--                            <input type="checkbox" name="news" id="news"/>-->
+        <!--                            <label for="news">Chci zasílat e-maily s novinkami a akcemi, maximálně 1x měsíčně</label>-->
+        <!--                        </p>-->
+        <p class="last">
+            <button type="submit" class="button blue"><span>Odeslat</span></button>
+        </p>
+    </fieldset>
+</form>

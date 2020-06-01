@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<%- include('partials/_head') -%>
+
+<body>
+
+<div class="remodal-bg">
+
+    <%- include('partials/_header') -%>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="/" class="home">Domů</a>
+            <span class="divider">&gt;</span>
+            <a href="/cenik">Ceník</a>
+            <!--            <span class="divider">&gt;</span>-->
+            <!--            <a href="#">X.NP</a>-->
+            <span class="divider">&gt;</span>
+            <span>Byt <%= identifier %></span>
+        </div>
+    </div>
+
+    <section class="section-flat-detail">
+        <div class="container">
+            <div class="flat-info sticky">
+                <div>
+                    <h1>
+                        Byt <%= identifier %>
+                    </h1>
+                    <h3>
+                        <span><strong><%= data.Appt_Object_Type__c %></strong></span>
+                        <span><strong><%= data.Floor_Size__c %>
+                                <% if (data.Availability__c === 'Available') { %>
+                                    + <%= data.Balcony_Terrace_Footage__c %>
+                                <% } %>
+                                m<sup>2</sup></strong></span>
+                        <br><span><%= String(data.Price_incl_VAT__c).replace(/(.)(?=(\d{3})+$)/g, '$1 ') %> Kč s DPH</span>
+                    </h3>
+                    <table>
+                        <tr>
+                            <th>Číslo</th>
+                            <th>Pokoj</th>
+                            <th>Velikost</th>
+                        </tr>
+                        <% rooms.forEach((element) => { %>
+                            <tr>
+                                <td><%= element.id %></td>
+                                <td><%= element.name %></td>
+                                <td><%= element.size %> m<sup>2</sup></td>
+                            </tr>
+                        <% }) %>
+                    </table>
+                </div>
+            </div>
+            <div class="flat-photos">
+                <div class="photo zoom">
+                    <img src="/byty/<%= identifier %>_pudorys.svg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="/byty/<%= identifier %>_byt.svg" alt="">
+                </div>
+                <div class="photo combined">
+                    <img class="overlay" src="/images/detail/dum_detail-bytu_<%= house %>.svg" alt="">
+                    <img src="/images/detail/dum_detail-bytu.png" alt="">
+                </div>
+                <div class="photo combined">
+                    <img class="overlay" src="/images/detail/patro_detail-bytu_<%= house %>-<%= floor %>.svg" alt="">
+                    <img src="/images/detail/patro_detail-bytu_a.png" alt="">
+                </div>
+            </div>
+            <div class="flat-contact sticky">
+                <div class="">
+                    <div class="box">
+                        <h3>Chcete se dozvědět více?</h3>
+                        <p class="mb30">Rádi se vám budeme osobně věnovat.</p>
+                        <%- include('partials/_form') -%>
+                    </div>
+                    <a href="/pudorys/Getberg_GResidence_pudorys_<%= identifier %>.pdf" download target="_blank"
+                       class="button"><span class="download">Stáhnout detail bytu</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-gallery js-animate mb0 light">
+        <div class="slider-gallery">
+            <div class="slide">
+                <div class="img" style="background-image: url('/images/gallery.jpg')">&nbsp;</div>
+                <div class="text">
+                    <div class="container">
+                        <h3>Vizualizace obývacího pokoje</h3>
+                        <p>Obývací pokoj s kuchyní a voděodolnou podlahou Pergo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="img" style="background-image: url('/images/gallery.jpg')">&nbsp;</div>
+                <div class="text">
+                    <div class="container">
+                        <h3>Vizualizace obývacího pokoje</h3>
+                        <p>Obývací pokoj s kuchyní a voděodolnou podlahou Pergo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="img" style="background-image: url('/images/gallery.jpg')">&nbsp;</div>
+                <div class="text">
+                    <div class="container">
+                        <h3>Vizualizace obývacího pokoje</h3>
+                        <p>Obývací pokoj s kuchyní a voděodolnou podlahou Pergo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="img" style="background-image: url('/images/gallery.jpg')">&nbsp;</div>
+                <div class="text">
+                    <div class="container">
+                        <h3>Vizualizace obývacího pokoje</h3>
+                        <p>Obývací pokoj s kuchyní a voděodolnou podlahou Pergo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <%- include('partials/_footer') -%>
+    <%- include('partials/_remodal') -%>
+
+</div>
+
+</body>
+
+</html>
