@@ -3,6 +3,7 @@ const fs = require('fs');
 const app = express();
 const env = require('dotenv').config();
 const mysql = require('mysql');
+const requestLib = require('request');
 
 const con = mysql.createConnection({
     host: "localhost",
@@ -149,24 +150,15 @@ app.post('/createBrozuraLead', (req, response) => {
     //     conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000P2ClAAK', Status: 'Responded'})
     // });
     const {FirstName, LastName, Email} = req.body;
-    conn.sobject("Lead").create({
-        FirstName: FirstName,
-        LastName: LastName,
-        Email: Email,
-        office_location__c: 'Prague',
-        LeadSource: 'PPC',
-        Status: 'New',
-        GDPR__c: true,
-        Project__c: 'a001p000012TXMJAA4',
-        Campaign__c: '7011p000000P2ClAAK'
-    }, function (err, ret) {
-        if (err || !ret.success) {
-            return console.error(err, ret);
+    requestLib.post(
+        'http://cl.s50.exct.net/subscribe.aspx?lid=265',
+        { json: { "SubAction": "sub_add_update", "MID": "510000399", "thx": "https://gresidence.cz/brozura.pdf", "err": "https://gresidence.cz/", "usub": "https://gresidence.cz/", "Email Address": Email, "Email Type": "HTML", "First Name": FirstName, "Last Name": LastName  } },
+        function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                console.log(body);
+            }
         }
-        console.log("Created record id : " + ret.id);
-        conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000P2ClAAK', Status: 'Responded'})
-    });
-
+    );
     // response.redirect('/brozura.pdf');
     response.redirect('https://gresidence.cz/brozura.pdf');
     response.end();
