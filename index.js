@@ -157,11 +157,11 @@ app.post('/createBrozuraLead', (req, response) => {
         function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 // console.log(body);
-                response.redirect('https://gresidence.cz/brozura.pdf');
             }
         }
     );
     // response.redirect('/brozura.pdf');
+    response.redirect('https://gresidence.cz/brozura.pdf');
     response.end();
 
 });
