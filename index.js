@@ -153,7 +153,7 @@ app.post('/createBrozuraLead', (req, response) => {
     const {FirstName, LastName, Email} = req.body;
     requestLib.post(
         'http://cl.s50.exct.net/subscribe.aspx?lid=265',
-        { json: { "SubAction": "sub_add_update", "MID": "510000399", "thx": "https://gresidence.cz/brozura.pdf", "err": "https://www.gresidence.cz/", "usub": "https://www.gresidence.cz/", "Email Address": Email, "Email Type": "HTML", "First Name": FirstName, "Last Name": LastName  } },
+         {form: { "SubAction": "sub_add_update", "MID": "510000399", "thx": "https://gresidence.cz/brozura.pdf", "err": "https://www.gresidence.cz/", "usub": "https://www.gresidence.cz/", "Email Address": Email, "Email Type": "HTML", "First Name": FirstName, "Last Name": LastName  } },
         function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 // console.log(body);
