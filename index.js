@@ -128,29 +128,56 @@ app.post('/createLead', (req, response) => {
 });
 
 app.post('/createBrozuraLead', (req, response) => {
-    const {FirstName, LastName, Phone, Description, Email} = req.body;
+    // const {FirstName, LastName, Phone, Description, Email} = req.body;
+    // conn.sobject("Lead").create({
+    //     FirstName: FirstName,
+    //     LastName: LastName,
+    //     Phone: Phone,
+    //     Email: Email,
+    //     Description: Description,
+    //     office_location__c: 'Prague',
+    //     LeadSource: 'PPC',
+    //     Status: 'New',
+    //     GDPR__c: true,
+    //     Project__c: 'a001p000012TXMJAA4',
+    //     Campaign__c: '7011p000000P2ClAAK'
+    // }, function (err, ret) {
+    //     if (err || !ret.success) {
+    //         return console.error(err, ret);
+    //     }
+    //     console.log("Created record id : " + ret.id);
+    //     conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000P2ClAAK', Status: 'Responded'})
+    // });
+    const {FirstName, LastName, Email} = req.body;
+    function post(path, params, method) {
+        method = method || "post"; // Set method to post by default if not specified.
 
-    conn.sobject("Lead").create({
-        FirstName: FirstName,
-        LastName: LastName,
-        Phone: Phone,
-        Email: Email,
-        Description: Description,
-        office_location__c: 'Prague',
-        LeadSource: 'PPC',
-        Status: 'New',
-        GDPR__c: true,
-        Project__c: 'a001p000012TXMJAA4',
-        Campaign__c: '7011p000000P2ClAAK'
-    }, function (err, ret) {
-        if (err || !ret.success) {
-            return console.error(err, ret);
+        // The rest of this code assumes you are not using a library.
+        // It can be made less wordy if you use one.
+        var form = document.createElement("form");
+        form.setAttribute("method", method);
+        form.setAttribute("action", path);
+        form.setAttribute("name", "subscribeForm");
+
+        for(var key in params) {
+            if(params.hasOwnProperty(key)) {
+                var hiddenField = document.createElement("input");
+                hiddenField.setAttribute("type", "hidden");
+                hiddenField.setAttribute("name", key);
+                hiddenField.setAttribute("value", params[key]);
+
+                form.appendChild(hiddenField);
+            }
         }
-        console.log("Created record id : " + ret.id);
-        conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000P2ClAAK', Status: 'Responded'})
-    });
+        document.body.appendChild(form);
+        // console.log(form);
+        form.submit();
+    }
+    post('http://cl.s50.exct.net/subscribe.aspx?lid=265', {"SubAction": "sub_add_update", "MID": "510000399", "thx": "/brozura.pdf", "err": "https://gresidence.cz/", "usub": "https://gresidence.cz/", "Email Address": Email, "Email Type": "HTML", "First Name": FirstName, "Last Name": LastName });
 
-    response.redirect('/brozura.pdf');
+
+    // response.redirect('/brozura.pdf');
+    response.redirect('https://gresidence.cz/brozura.pdf');
     response.end();
 
 });
