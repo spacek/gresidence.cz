@@ -113,7 +113,8 @@ app.post('/createLead', (req, response) => {
         UTM_SOURCE__c: utmSourceField,
         UTM_MEDIUM__c: utmMediumField,
         UTM_CAMPAIGN__c: utmCampaignField,
-        UTM_CONTENT__c: utmContentField
+        UTM_CONTENT__c: utmContentField,
+        OwnerId: '0051p00000BiLq7AAF'
     };
 
     con.query('INSERT INTO leads SET ?', {
