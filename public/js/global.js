@@ -318,9 +318,9 @@ $(document).ready(
             $('.floor.floor-' + floor).removeClass('hover');
         });
 
-        $(".sticky").stick_in_parent({
-            offset_top: 82
-        });
+        // $(".sticky").stick_in_parent({
+        //     offset_top: 82
+        // });
 
         $(".js-day").click(function () {
             $(".js-day-and-night").removeClass("night");
