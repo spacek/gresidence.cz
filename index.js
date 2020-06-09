@@ -106,7 +106,7 @@ app.post('/createLead', (req, response) => {
         Status: 'New',
         GDPR__c: true,
         Project__c: 'a001p000012TXMJAA4',
-        Campaign__c: '7011p000000P2ClAAK',
+        Campaign__c: '7011p000000PDARAA4',
         GCLID__c: gclidField,
         G_GROUP__c: gGroupField,
         G_CAMPAIGN__c: gCampaignField,
@@ -128,7 +128,7 @@ app.post('/createLead', (req, response) => {
             return console.error(err, ret);
         }
         console.log("Created record id : " + ret.id);
-        conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000P2ClAAK', Status: 'Responded'})
+        conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000PDARAA4', Status: 'Responded'})
     });
 
     response.redirect('/#sent');
