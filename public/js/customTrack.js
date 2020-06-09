@@ -16,19 +16,19 @@ jQuery( document ).ready(function() {
 
     function addGclidEtc() {
         var gclidParam = getParam('gclid');
-        var gclidFormFields = jQuery("input[name='gclid-field']").toArray(); // all possible gclid form field ids here
+        var gclidFormFields = jQuery("input[name='gclidField']").toArray(); // all possible gclid form field ids here
         var gGroupParam = getParam('g_group');
-        var gGroupdFormFields = jQuery("input[name='g-group-field']").toArray(); // all possible g-group form field ids here
+        var gGroupdFormFields = jQuery("input[name='gGroupField']").toArray(); // all possible g-group form field ids here
         var gCampaignParam = getParam('g_campaign');
-        var gCampaignFormFields = jQuery("input[name='g-campaign-field']").toArray(); // all possible g-campaign form field ids here
+        var gCampaignFormFields = jQuery("input[name='gCampaignField']").toArray(); // all possible g-campaign form field ids here
         var utmSourceParam = getParam('utm_source');
-        var utmSourceFormFields = jQuery("input[name='utm-source-field']").toArray(); // all possible utm-source form field ids here
+        var utmSourceFormFields = jQuery("input[name='utmSourceField']").toArray(); // all possible utm-source form field ids here
         var utmMediumParam = getParam('utm_medium');
-        var utmMediumFormFields = jQuery("input[name='utm-medium-field']").toArray(); // all possible utm-medium form field ids here
+        var utmMediumFormFields = jQuery("input[name='utmMediumField']").toArray(); // all possible utm-medium form field ids here
         var utmCampaignParam = getParam('utm_campaign');
-        var utmCampaignFormFields = jQuery("input[name='utm-campaign-field']").toArray(); // all possible utm-campaign form field ids here
+        var utmCampaignFormFields = jQuery("input[name='utmCampaignField']").toArray(); // all possible utm-campaign form field ids here
         var utmContentParam = getParam('utm_content');
-        var utmContentFormFields = jQuery("input[name='utm-content-field']").toArray(); // all possible utm-content form field ids here
+        var utmContentFormFields = jQuery("input[name='utmContentField']").toArray(); // all possible utm-content form field ids here
 
         var gclidRecord = null;
 

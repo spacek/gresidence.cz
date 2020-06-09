@@ -88,7 +88,7 @@ app.get('/dum/:houseId/:floorId', (req, response) => {
 
 app.post('/createLead', (req, response) => {
     // const {FirstName, LastName, Phone, Description, Email} = req.body;
-    const {FirstName, LastName, Phone, Description, Email} = req.body;
+    const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField} = req.body;
 
     if(!FirstName || !LastName || !Phone || !Description || !Email) {
         response.redirect('/');
@@ -106,7 +106,14 @@ app.post('/createLead', (req, response) => {
         Status: 'New',
         GDPR__c: true,
         Project__c: 'a001p000012TXMJAA4',
-        Campaign__c: '7011p000000P2ClAAK'
+        Campaign__c: '7011p000000P2ClAAK',
+        GCLID__c: gclidField,
+        G_GROUP__c: gGroupField,
+        G_CAMPAIGN__c: gCampaignField,
+        UTM_SOURCE__c: utmSourceField,
+        UTM_MEDIUM__c: utmMediumField,
+        UTM_CAMPAIGN__c: utmCampaignField,
+        UTM_CONTENT__c: utmContentField
     };
 
     con.query('INSERT INTO leads SET ?', {
