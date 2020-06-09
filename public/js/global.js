@@ -322,6 +322,18 @@ $(document).ready(
         //     offset_top: 82
         // });
 
+        function onResize (){
+            let width = $(window).width();
+            if(width < 1201){
+                $(".sticky").trigger("sticky_kit:detach");
+            }
+        }
+        $(window).resize(onResize); 
+        $(".sticky").stick_in_parent({
+            offset_top: 82
+        });
+        onResize();// first time;
+
         $(".js-day").click(function () {
             $(".js-day-and-night").removeClass("night");
             $(".section-day-and-night").removeClass("night");
