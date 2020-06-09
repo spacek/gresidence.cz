@@ -615,12 +615,17 @@ header nav .menu li a.menu-link.language:before {
 header nav .menu li a.menu-link.language:hover {
   background: #333333;
 }
+@media (max-width: 1150px) {
+  header nav .menu li a.menu-link {
+    font-size: 14px;
+  }
+}
 header nav .menu li:first-of-type {
   margin-left: 0;
 }
 @media (max-width: 1150px) {
   header nav .menu li {
-    margin-left: 34px;
+    margin-left: 10px;
   }
   header nav .menu li:first-of-type {
     margin-left: 0;
