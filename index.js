@@ -90,7 +90,7 @@ app.post('/createLead', (req, response) => {
     // const {FirstName, LastName, Phone, Description, Email} = req.body;
     const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField} = req.body;
 
-    if(!FirstName || !LastName || !Phone || !Description || !Email) {
+    if(!FirstName || !LastName || !Phone || !Email) {
         response.redirect('/');
         response.end();
     }
