@@ -334,7 +334,6 @@ app.get('/cenik', (req, response) => {
     });
 });
 
-
 app.listen(PORT, '127.0.0.1', (req, res) => {
     console.log('server started listening on port 9001');
 });
