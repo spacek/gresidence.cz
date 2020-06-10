@@ -11,9 +11,36 @@
 
     <div class="fixed-buttons" style="position: fixed; top: 50vh; right: 0; z-index: 1000;">
         <a class="button blue" href="#brozura">Mám zájem o brožuru</a><br />
-        <a class="button grey" href="#prohlidka">Chci si domluvit prohlídku</a>
+        <a class="button grey" href="#prohlidka">Chci si domluvit prohlídku</a><br />
+        <a class="stickyBtn" href="#prohlidka" style="display: none!important;">
+            <span>Kontaktujte nás</span>
+            <img src="https://gresidence.cz/images/letter.svg">
+        </a>
     </div>
-
+    <style>
+        .stickyBtn{
+            width: 88px;
+            height: 88px;
+            background: #22325d;
+            border-radius: 44px;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+            text-decoration: none;
+            transition: all 1s ease;
+        }
+        .stickyBtn:hover{
+            width: 218px;
+        }
+        .stickyBtn span{
+            opacity: 0;
+            pointer-events: none;
+        }
+        .stickyBtn:hover span{
+            opacity: 1;
+            pointer-events: all;
+        }
+    </style>
     <section class="section-intro mb0">
         <h1 class="blind">G Residence</h1>
         <div class="container js-animate">
