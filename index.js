@@ -43,16 +43,17 @@ app.use('*', (req, res, next) => {
 });
 
 app.get('/', (req, response) => {
-    const soql = 'SELECT Name, Availability__c FROM Product2 WHERE (Project__c=\'a001p000012TXMJAA4\')';
-    conn.query(soql, function (err, res) {
-        if (err) {
-            return console.error(err);
-        }
-        const gresApts = res;
-        response.render('index', {
-            gresApts: gresApts
-        });
-    });
+    // const soql = 'SELECT Name, Availability__c FROM Product2 WHERE (Project__c=\'a001p000012TXMJAA4\')';
+    // conn.query(soql, function (err, res) {
+    //     if (err) {
+    //         return console.error(err);
+    //     }
+    //     const gresApts = res;
+    //     response.render('index', {
+    //         gresApts: gresApts
+    //     });
+    // });
+    response.render('index');
 });
 
 
