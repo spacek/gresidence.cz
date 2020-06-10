@@ -136,8 +136,13 @@
 
         </div>
     </section>
-    <script>console.log(<%=gresApts%>)</script>
-
+    <div style='display:none!important;'>
+        <%=gresApts%>
+        <% for (var prop in gresApts) { %>
+            <% if (Object.prototype.hasOwnProperty.call(gresApts, prop)) { %>
+              <p><%- gresApts[prop] %></p>
+       <%   } } %>
+    </div>
 
     <section class="section-timeline">
         <div class="container">
