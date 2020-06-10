@@ -57,6 +57,7 @@ app.get('/', (req, response) => {
 });
 
 
+
 app.get('/dum', (req, response) => {
     response.render('dum', {
         house: false,
