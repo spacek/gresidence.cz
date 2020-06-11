@@ -1003,7 +1003,7 @@ footer .social a:hover svg path {
 }
 @media (max-width: 450px) {
   .fixed-buttons {
-    top: 70vh !important;
+    bottom: 45px!important;
   }
 }
 .fixed-buttons .button {

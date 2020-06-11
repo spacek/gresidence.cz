@@ -1,0 +1,30 @@
+.stickyBtn{
+    width: 88px;
+    height: 88px;
+    background: #22325d;
+    border-radius: 44px;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+.stickyBtn:hover{
+    width: 200px;
+}
+.stickyBtn span{
+    opacity: 0;
+    pointer-events: none;
+    padding-right: 20px;
+    visibility: hidden;
+    transition: opacity 0.1s 1s;
+}
+.stickyBtn img{
+    position: relative;
+    right: 13px;
+}
+.stickyBtn:hover span{
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+}
