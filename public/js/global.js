@@ -391,75 +391,76 @@ $(document).ready(
 
         // ------------ Animace ------------
 
-        $('.js-animate').one('inview', function (event, isVisible) {
-            if (isVisible) {
-                var $this = $(this);
+        //Disabled temporarly
+        // $('.js-animate').one('inview', function (event, isVisible) {
+        //     if (isVisible) {
+        //         var $this = $(this);
 
-                animationClass = "fadeIn";
-                $this.addClass("animated-new").addClass(animationClass);
-            }
-        });
+        //         animationClass = "fadeIn";
+        //         $this.addClass("animated-new").addClass(animationClass);
+        //     }
+        // });
 
-        $('.js-animate-slow.first').one('inview', function (event, isVisible) {
-            if (isVisible) {
-                var $this = $(this);
+        // $('.js-animate-slow.first').one('inview', function (event, isVisible) {
+        //     if (isVisible) {
+        //         var $this = $(this);
 
-                setTimeout(function () {
-                    animationClass = "fadeIn";
-                    $this.addClass("animated-new").addClass(animationClass);
-                }, 400);
-            }
-        });
+        //         setTimeout(function () {
+        //             animationClass = "fadeIn";
+        //             $this.addClass("animated-new").addClass(animationClass);
+        //         }, 400);
+        //     }
+        // });
 
-        $('.js-animate-slow.second').one('inview', function (event, isVisible) {
-            if (isVisible) {
-                var $this = $(this);
+        // $('.js-animate-slow.second').one('inview', function (event, isVisible) {
+        //     if (isVisible) {
+        //         var $this = $(this);
 
-                setTimeout(function () {
-                    animationClass = "fadeIn";
-                    $this.addClass("animated-new").addClass(animationClass);
-                }, 550);
-            }
-        });
+        //         setTimeout(function () {
+        //             animationClass = "fadeIn";
+        //             $this.addClass("animated-new").addClass(animationClass);
+        //         }, 550);
+        //     }
+        // });
 
-        $('.js-animate-slow.third').one('inview', function (event, isVisible) {
-            if (isVisible) {
-                var $this = $(this);
+        // $('.js-animate-slow.third').one('inview', function (event, isVisible) {
+        //     if (isVisible) {
+        //         var $this = $(this);
 
-                setTimeout(function () {
-                    animationClass = "fadeIn";
-                    $this.addClass("animated-new").addClass(animationClass);
-                }, 700);
-            }
-        });
+        //         setTimeout(function () {
+        //             animationClass = "fadeIn";
+        //             $this.addClass("animated-new").addClass(animationClass);
+        //         }, 700);
+        //     }
+        // });
 
-        $('.section-timeline').one('inview', function (event, isVisible) {
-            if (isVisible) {
-                var $this = $(this);
+        // $('.section-timeline').one('inview', function (event, isVisible) {
+        //     if (isVisible) {
+        //         var $this = $(this);
 
-                setTimeout(function () {
-                    $(".timeline .step1").addClass("done visible");
-                }, 300);
-                setTimeout(function () {
-                    $(".timeline .line").css("width", "25%");
-                }, 1100);
-                setTimeout(function () {
-                    $(".timeline .step2").addClass("done visible");
-                    // $(".timeline .step1 p.small").addClass("hidden");
-                }, 1900);
-                setTimeout(function () {
-                    $(".timeline .line").css("width", "40%");
-                }, 2700);
-                setTimeout(function () {
-                    $(".timeline .step3").addClass("visible");
-                    // $(".timeline .step2 p.small").addClass("hidden");
-                }, 3500);
-                setTimeout(function () {
-                    $(".timeline .step4").addClass("visible");
-                    // $(".timeline .step3 p.small").addClass("hidden");
-                }, 4300);
-            }
-        });
+        //         setTimeout(function () {
+        //             $(".timeline .step1").addClass("done visible");
+        //         }, 300);
+        //         setTimeout(function () {
+        //             $(".timeline .line").css("width", "25%");
+        //         }, 1100);
+        //         setTimeout(function () {
+        //             $(".timeline .step2").addClass("done visible");
+        //             // $(".timeline .step1 p.small").addClass("hidden");
+        //         }, 1900);
+        //         setTimeout(function () {
+        //             $(".timeline .line").css("width", "40%");
+        //         }, 2700);
+        //         setTimeout(function () {
+        //             $(".timeline .step3").addClass("visible");
+        //             // $(".timeline .step2 p.small").addClass("hidden");
+        //         }, 3500);
+        //         setTimeout(function () {
+        //             $(".timeline .step4").addClass("visible");
+        //             // $(".timeline .step3 p.small").addClass("hidden");
+        //         }, 4300);
+        //     }
+        // });
 
 
         // About
