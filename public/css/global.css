@@ -441,10 +441,10 @@ section ul li:before {
   box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.4);
 }
 /* Animation */
-/* .js-animate,
+.js-animate,
 .js-animate-slow {
   visibility: hidden;
-} */
+}
 .js-animate.animated-new,
 .js-animate-slow.animated-new {
   visibility: visible;
