@@ -54,12 +54,56 @@
 }
 
 .sub-ul{
-    display:none;
+    visibility: hidden;
+    pointer-events: none;
+    display: block;
 }
 .menu-li-has-sub:hover .sub-ul{
-    display: block;
-    margin-top: 15px;
-    width: 200px;
+    visibility: visible;
+    pointer-events: all;
+    width: 150px;
     left: 0;
     position: absolute;
+    background: rgba(0,0,0,0.25);
+    padding: 0.5em .2em;
+}
+
+.sub-ul a{
+    color: white;
+    -webkit-transition: all 550ms;
+    -moz-transition: all 550ms;
+    -ms-transition: all 550ms;
+    -o-transition: all 550ms;
+    transition: all 550ms;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    font-weight: normal;
+    position: relative;
+}
+.sub-ul a:before{
+    opacity: 0;
+    display: block;
+    height: 3px;
+    width: 100%;
+    -webkit-transition: all 550ms;
+    -moz-transition: all 550ms;
+    -ms-transition: all 550ms;
+    -o-transition: all 550ms;
+    transition: all 550ms;
+    position: absolute;
+    bottom: 3px;
+    content: "";
+    background: #818181;
+    background: linear-gradient(90deg, #818181 0%, rgba(51, 51, 51, 0.90239846) 100%);
+}
+.sub-ul a:hover:before{
+    opacity: 1;
+}
+@media (max-width: 1150px){
+
 }
