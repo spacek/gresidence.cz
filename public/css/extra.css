@@ -48,3 +48,18 @@
         right: 10px;
     }
 }
+
+.menu-li-has-sub{
+    display:none!important;
+}
+
+.sub-ul{
+    display:none;
+}
+.menu-li-has-sub:hover .sub-ul{
+    display: block;
+    margin-top: 15px;
+    width: 200px;
+    left: 0;
+    position: absolute;
+}
