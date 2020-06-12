@@ -112,7 +112,9 @@
         margin: 0 0 !important;
         display: block;
         color: #818181;
-        background: linear-gradient(90deg, #818181 0%, rgba(51, 51, 51, 0.90239846) 100%);
+        background: #fff;
+        visibility: visible;
+        pointer-events: all;
     }
     .sub-ul a{
         width: 100%;
