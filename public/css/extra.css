@@ -81,6 +81,12 @@
     font-weight: normal;
     position: relative;
 }
+header.small .sub-ul {
+    background: #fff;
+}
+header.small .sub-ul a{
+    color: #818181;
+}
 .sub-ul a:before{
     opacity: 0;
     display: block;
