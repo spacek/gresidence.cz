@@ -149,26 +149,6 @@ app.post('/createLead', (req, response) => {
 });
 
 app.post('/createBrozuraLead', (req, response) => {
-    // const {FirstName, LastName, Phone, Description, Email} = req.body;
-    // conn.sobject("Lead").create({
-    //     FirstName: FirstName,
-    //     LastName: LastName,
-    //     Phone: Phone,
-    //     Email: Email,
-    //     Description: Description,
-    //     office_location__c: 'Prague',
-    //     LeadSource: 'PPC',
-    //     Status: 'New',
-    //     GDPR__c: true,
-    //     Project__c: 'a001p000012TXMJAA4',
-    //     Campaign__c: '7011p000000P2ClAAK'
-    // }, function (err, ret) {
-    //     if (err || !ret.success) {
-    //         return console.error(err, ret);
-    //     }
-    //     console.log("Created record id : " + ret.id);
-    //     conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000P2ClAAK', Status: 'Responded'})
-    // });
     const {FirstName, LastName, Email} = req.body;
     requestLib.post(
         'http://cl.s50.exct.net/subscribe.aspx?lid=265',
