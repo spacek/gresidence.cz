@@ -121,7 +121,7 @@
     }
     .header-white-text header nav .menu .menu-li-has-sub:hover .sub-ul{
         width: 100%;
-        background: #818181;
+        background: #fff!important;
     }
     .header-white-text header nav .menu .sub-ul a{
         width: 100%;
@@ -139,4 +139,9 @@
     }
 }
 /* menu scrolled */
-/* .header-white-text header.small nav .menu */
+.header-white-text header.small nav .menu .sub-ul {
+    background: rgba(255,255,255,0.8);
+}
+.header-white-text header.small nav .menu .sub-ul a {
+    color: #818181;
+}
