@@ -97,5 +97,6 @@ jQuery( document ).ready(function() {
             field.value = window.hj.globals.get('userId').split("-").shift();
         });
     }
-    window.addEventListener('load', addGclidEtc);
+    // window.addEventListener('load', addGclidEtc);
+    setTimeout(addGclidEtc, 2000);
 });
