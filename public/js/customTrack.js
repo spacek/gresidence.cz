@@ -94,7 +94,11 @@ jQuery( document ).ready(function() {
             field.value = utmContent;
         });
         hotjarIdFields.forEach(function (field) {
-            field.value = window.hj.globals.get('userId').split("-").shift();
+            if(window.hj.globals.get('userId')){
+                field.value = window.hj.globals.get('userId').split("-").shift();
+            }else {
+                field.value = '';
+            }
         });
     }
     // window.addEventListener('load', addGclidEtc);
