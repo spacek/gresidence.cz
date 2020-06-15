@@ -132,10 +132,10 @@
         line-height: normal;
         margin: 0 0;
         text-align: left;
-        color: #818181 !important;
+        color: #818181!important;
     }
     .header-white-text header nav .menu .sub-ul a:hover{
-        background: #e2e1e1 !important;
+        background: #e2e1e1!important;
     }
     .header-white-text header nav .menu .sub-ul a:hover:before{
         opacity:0!important;
@@ -149,6 +149,3 @@
     color: #818181;
 }
 
-
-
-.header-white-text header nav .menu .sub-ul a:hover:before

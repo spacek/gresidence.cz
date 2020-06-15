@@ -147,6 +147,56 @@ app.post('/createLead', (req, response) => {
     response.end();
 
 });
+app.post('/byt/createLead', (req, response) => {
+    // const {FirstName, LastName, Phone, Description, Email} = req.body;
+    const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField} = req.body;
+
+    if(!FirstName || !LastName || !Phone || !Email) {
+        response.redirect('/');
+        response.end();
+    }
+
+    const lead = {
+        FirstName: FirstName,
+        LastName: LastName,
+        Phone: Phone,
+        Email: Email,
+        Description: Description,
+        office_location__c: 'Prague',
+        LeadSource: 'PPC',
+        Status: 'New',
+        GDPR__c: true,
+        Project__c: 'a001p000012TXMJAA4',
+        Campaign__c: '7011p000000PDARAA4',
+        GCLID__c: gclidField,
+        G_GROUP__c: gGroupField,
+        G_CAMPAIGN__c: gCampaignField,
+        UTM_SOURCE__c: utmSourceField,
+        UTM_MEDIUM__c: utmMediumField,
+        UTM_CAMPAIGN__c: utmCampaignField,
+        UTM_CONTENT__c: utmContentField,
+        OwnerId: '0051p00000BiLq7AAF'
+    };
+
+    con.query('INSERT INTO leads SET ?', {
+        lead: JSON.stringify(lead)
+    }, function (error, results, fields) {
+        if (error) throw error;
+        // Neat!
+    });
+
+    conn.sobject("Lead").create(lead, function (err, ret) {
+        if (err || !ret.success) {
+            return console.error(err, ret);
+        }
+        console.log("Created record id : " + ret.id);
+        conn.sobject("CampaignMember").create({LeadId: ret.id, CampaignId: '7011p000000PDARAA4', Status: 'Responded'})
+    });
+
+    response.redirect('/#sent');
+    response.end();
+
+});
 
 app.post('/createBrozuraLead', (req, response) => {
     const {FirstName, LastName, Email} = req.body;
