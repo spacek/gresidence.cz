@@ -29,9 +29,10 @@ jQuery( document ).ready(function() {
         var utmCampaignFormFields = jQuery("input[name='utmCampaignField']").toArray(); // all possible utm-campaign form field ids here
         var utmContentParam = getParam('utm_content');
         var utmContentFormFields = jQuery("input[name='utmContentField']").toArray(); // all possible utm-content form field ids here
-
+        
+        var hotjarIdFields = jQuery("input[name='hotjarId']").toArray(); // all possible hotjarId form field ids here
+        
         var gclidRecord = null;
-
 
         var gclsrcParam = getParam('gclsrc');
         var isGclsrcValid = !gclsrcParam || gclsrcParam.indexOf('aw') !== -1;
@@ -91,6 +92,9 @@ jQuery( document ).ready(function() {
         });
         utmContentFormFields.forEach(function (field) {
             field.value = utmContent;
+        });
+        hotjarIdFields.forEach(function (field) {
+            field.value = window.hj.globals.get('userId').split("-").shift();
         });
     }
     window.addEventListener('load', addGclidEtc);

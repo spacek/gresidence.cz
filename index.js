@@ -99,7 +99,7 @@ app.get('/dum/:houseId/:floorId', (req, response) => {
 
 app.post('/createLead', (req, response) => {
     // const {FirstName, LastName, Phone, Description, Email} = req.body;
-    const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField} = req.body;
+    const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField, hotjarId} = req.body;
 
     if(!FirstName || !LastName || !Phone || !Email) {
         response.redirect('/');
@@ -125,6 +125,7 @@ app.post('/createLead', (req, response) => {
         UTM_MEDIUM__c: utmMediumField,
         UTM_CAMPAIGN__c: utmCampaignField,
         UTM_CONTENT__c: utmContentField,
+        hotjarId__c: hotjarId,
         OwnerId: '0051p00000BiLq7AAF'
     };
 
@@ -149,7 +150,7 @@ app.post('/createLead', (req, response) => {
 });
 app.post('/byt/createLead', (req, response) => {
     // const {FirstName, LastName, Phone, Description, Email} = req.body;
-    const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField} = req.body;
+    const {FirstName, LastName, Phone, Description, Email, gclidField, gGroupField, gCampaignField, utmSourceField, utmMediumField, utmCampaignField, utmContentField, hotjarId} = req.body;
 
     if(!FirstName || !LastName || !Phone || !Email) {
         response.redirect('/');
@@ -175,6 +176,7 @@ app.post('/byt/createLead', (req, response) => {
         UTM_MEDIUM__c: utmMediumField,
         UTM_CAMPAIGN__c: utmCampaignField,
         UTM_CONTENT__c: utmContentField,
+        hotjarId__c: hotjarId,
         OwnerId: '0051p00000BiLq7AAF'
     };
 
