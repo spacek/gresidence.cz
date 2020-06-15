@@ -1,4 +1,4 @@
-jQuery( document ).ready(function() {
+setTimeout(function() {
     function getParam(p) {
         var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
         return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
@@ -67,6 +67,8 @@ jQuery( document ).ready(function() {
         var utmMedium = JSON.parse(localStorage.getItem('utm_medium'));
         var utmCampaign = JSON.parse(localStorage.getItem('utm_campaign'));
         var utmContent = JSON.parse(localStorage.getItem('utm_content'));
+        
+        var hjId = localStorage.getItem('_hjid');
 
         var isGclidValid = gclid && new Date().getTime() < gclid.expiryDate;
 
@@ -96,15 +98,15 @@ jQuery( document ).ready(function() {
         
         setTimeout(function(){
             hotjarIdFields.forEach(function (field) {
-                if(window.hj.globals.get('userId')){
-                    field.value = window.hj.globals.get('userId').split("-").shift();
-                    console.log(window.hj.globals.get('userId').split("-").shift());
+                if(hjId){
+                    field.value = hjId.split("-").shift();
+                    console.log(hjId.split("-").shift());
                 }else {
                     field.value = '';
                     console.log('No userId');
                 }
             });
-        }, 1500);
+        }, 500);
     }
-    window.addEventListener('load', addGclidEtc);
-});
+    addGclidEtc();
+}, 2000);
