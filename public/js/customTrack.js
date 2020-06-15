@@ -93,16 +93,18 @@ jQuery( document ).ready(function() {
         utmContentFormFields.forEach(function (field) {
             field.value = utmContent;
         });
-        hotjarIdFields.forEach(function (field) {
-            if(window.hj.globals.get('userId')){
-                field.value = window.hj.globals.get('userId').split("-").shift();
-                console.log(window.hj.globals.get('userId').split("-").shift());
-            }else {
-                field.value = '';
-                console.log('No userId');
-            }
-        });
+        
+        setTimeout(function(){
+            hotjarIdFields.forEach(function (field) {
+                if(window.hj.globals.get('userId')){
+                    field.value = window.hj.globals.get('userId').split("-").shift();
+                    console.log(window.hj.globals.get('userId').split("-").shift());
+                }else {
+                    field.value = '';
+                    console.log('No userId');
+                }
+            });
+        }, 1500);
     }
     window.addEventListener('load', addGclidEtc);
-    // setTimeout(addGclidEtc, 2000);
 });
