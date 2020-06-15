@@ -111,13 +111,17 @@
 @media (max-width: 1020px){
     .header-white-text header nav .menu .sub-ul{
         width: 100%;
-        padding: 0 0 0 1em !important;
+        padding: 0 0 0 0 !important;
         margin: 0 0 !important;
         display: block;
         color: #818181;
         background: #fff;
         visibility: visible;
         pointer-events: all;
+    }
+    .header-white-text header nav .menu .menu-li-has-sub:hover .sub-ul{
+        width: 100%;
+        background: #818181;
     }
     .header-white-text header nav .menu .sub-ul a{
         width: 100%;
@@ -129,6 +133,9 @@
         margin: 0 0;
         text-align: left;
         color: #818181 !important;
+    }
+    .header-white-text header nav .menu .sub-ul a:hover{
+        background: #e2e1e1 !important;
     }
 }
 /* menu scrolled */
