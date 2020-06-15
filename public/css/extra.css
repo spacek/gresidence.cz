@@ -137,11 +137,18 @@
     .header-white-text header nav .menu .sub-ul a:hover{
         background: #e2e1e1 !important;
     }
+    .header-white-text header nav .menu .sub-ul a:hover:before{
+        opacity:0!important;
+    }
 }
 /* menu scrolled */
 .header-white-text header.small nav .menu .sub-ul {
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.8)!important;
 }
 .header-white-text header.small nav .menu .sub-ul a {
     color: #818181;
 }
+
+
+
+.header-white-text header nav .menu .sub-ul a:hover:before

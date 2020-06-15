@@ -28,11 +28,14 @@
     <section class="section-select-apartment">
         <div class="heading">
             <% if (!house) { %>
-            <h1>G Residence</h1>
+            <!-- <h1>G Residence</h1> -->
+            <h1>Vyberte budovu</h1>
             <% } else if(house && !floor) { %>
-            <h1>Budova <%= house %></h1>
+            <!-- <h1>Budova <%= house %></h1> -->
+            <h1>Vyberte patro</h1>
             <% } else if(house && floor) { %>
-            <h1>Budova <%= house %>, <%= floor %>. patro</h1>
+            <!-- <h1>Budova <%= house %>, <%= floor %>. patro</h1> -->
+            <h1>Vyberte byt</h1>
             <% } %>
         </div>
 
