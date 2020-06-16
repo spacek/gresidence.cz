@@ -7,7 +7,7 @@
     justify-content: flex-end;
     color: white;
     text-decoration: none;
-    transition: width 0.7s ease;
+    transition: width 0.5s ease;
 }
 .stickyBtn:hover{
     width: 220px;
@@ -24,7 +24,7 @@
     pointer-events: none;
     padding-right: 20px;
     visibility: hidden;
-    transition: visibility 0.1s 0.7s;
+    transition: visibility 0.3s ease 1s;
     min-width: 140px;
 }
 .stickyBtn img{
