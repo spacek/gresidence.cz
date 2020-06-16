@@ -64,7 +64,7 @@
                             <td>
                                 <% if (element.Unit_Name__c === 'C107') { %>
                                     Akce
-                                <% } else if (element.Availability__c === 'Available') { %>
+                                <% break;} else if (element.Availability__c === 'Available') { %>
                                     Dostupné
                                 <% } else if (element.Availability__c === 'SBK signed') { %>
                                     Prodáno
