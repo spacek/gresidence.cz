@@ -177,3 +177,9 @@
         font-size: 23px!important;
     }
 }
+
+.section-intro .video-container{
+    filter: brightness(85%);
+    -webkit-filter: brightness(85%);
+    -moz-filter: brightness(85%);
+}
