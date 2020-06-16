@@ -150,3 +150,30 @@
     color: #818181;
 }
 
+/* temporary slide */
+.newHead{
+    font-size:50px!important;
+    /* text-decoration: underline;
+    text-underline-position: under; */
+}
+.newHeadButton{
+    margin-top:10em;
+    background:#ed404e;
+    color:#ddd;
+}
+.newHeadButton:hover{
+    color:#fff;
+}
+@media (max-width: 1020px){
+    .newHead{
+        font-size:35px!important;
+    }
+    .newHeadButton{
+        margin-top:2em;
+    }
+}
+@media (max-width: 767px){
+    .newHead{
+        font-size:23px!important;
+    }
+}
