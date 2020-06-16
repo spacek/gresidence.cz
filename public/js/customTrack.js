@@ -99,8 +99,8 @@ setTimeout(function() {
         setTimeout(function(){
             hotjarIdFields.forEach(function (field) {
                 if(hjId){
-                    field.value = hjId.split("-").shift();
-                    console.log(hjId.split("-").shift());
+                    field.value = hjId;
+                    console.log(hjId);
                 }else {
                     field.value = '';
                     console.log('No userId');
