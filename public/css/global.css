@@ -3422,7 +3422,6 @@ form button {
   background-color: rgba(31, 33, 45, 0.7);
   display: block;
   content: '';
-  /* background-image: url("./images/more.png"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 85px 85px;
