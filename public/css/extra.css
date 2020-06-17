@@ -187,3 +187,7 @@
 .section-pricelist table tr th:nth-child(6){
     min-width: 95px;
 }
+
+.offer-ribbon{
+    display:none!important;
+}
