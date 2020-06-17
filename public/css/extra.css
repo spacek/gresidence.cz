@@ -183,3 +183,7 @@
     -webkit-filter: brightness(85%);
     -moz-filter: brightness(85%);
 }
+
+.section-pricelist table tr th:nth-child(5){
+    min-width: 95px;
+}

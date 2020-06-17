@@ -2850,8 +2850,8 @@ form button {
   .section-pricelist .button {
     min-width: 1px;
   }
-  .section-pricelist table tr th:nth-child(3),
-  .section-pricelist table tr td:nth-child(3),
+  .section-pricelist table tr th:nth-child(4),
+  .section-pricelist table tr td:nth-child(4),
   .section-pricelist table tr th:nth-child(5),
   .section-pricelist table tr td:nth-child(5),
   .section-pricelist table tr th:nth-child(7),
