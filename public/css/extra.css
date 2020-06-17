@@ -1,7 +1,7 @@
 .stickyBtn{
     width: 88px;
     height: 88px;
-    background: #22325d;
+    background: #ed404e;
     border-radius: 44px;
     align-items: center;
     justify-content: flex-end;
@@ -11,10 +11,10 @@
 }
 .stickyBtn:hover{
     width: 220px;
-    background: #2C4076;
+    background: #ff5d5e;
 }
 .stickyBtn:active{
-    background: #22325d;
+    background: #ed404e;
     -webkit-box-shadow: inset 0px 6px 15px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: inset 0px 6px 15px 0px rgba(0,0,0,0.4);
     box-shadow: inset 0px 6px 15px 0px rgba(0,0,0,0.4);
