@@ -68,7 +68,7 @@ setTimeout(function() {
         var utmCampaign = JSON.parse(localStorage.getItem('utm_campaign'));
         var utmContent = JSON.parse(localStorage.getItem('utm_content'));
         
-        var hjId = localStorage.getItem('_hjid');
+        // var hjId = localStorage.getItem('_hjid');
 
         var isGclidValid = gclid && new Date().getTime() < gclid.expiryDate;
 
@@ -97,6 +97,8 @@ setTimeout(function() {
         });
         
         setTimeout(function(){
+            var hjId = hj.globals.get("userId").split("-").shift();
+
             hotjarIdFields.forEach(function (field) {
                 if(hjId){
                     field.value = hjId;
@@ -106,7 +108,7 @@ setTimeout(function() {
                     console.log('No userId');
                 }
             });
-        }, 500);
+        }, 2000);
     }
     addGclidEtc();
 }, 2000);
