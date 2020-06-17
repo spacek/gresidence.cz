@@ -502,6 +502,7 @@ $(document).ready(
             paginate: false,
             language: {
                 info: "Zobrazuje se _PAGE_ z _PAGES_ stránek",
+                infoEmpty: "V této velikosti nemáme již dostupný žádný byt.",
                 paginate: {
                     previous: '‹',
                     next: '›'
