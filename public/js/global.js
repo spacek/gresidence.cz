@@ -500,6 +500,7 @@ $(document).ready(
             searching: false,
             pageLength: 1000,
             paginate: false,
+            order: [[ 5, "asc" ]],
             language: {
                 info: "Zobrazuje se _PAGE_ z _PAGES_ stránek",
                 zeroRecords: "V této velikosti nemáme již dostupný žádný byt.",
