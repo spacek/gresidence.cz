@@ -189,7 +189,6 @@
 }
 
 .offer-ribbon{
-    display:none!important;
     min-height: 40px;
     display: flex;
     background: #FF903B;
@@ -202,5 +201,6 @@
 }
 .offer-ribbon span{
     color: white;
+    font-weight: bold;
     width:100%;
 }
