@@ -190,4 +190,17 @@
 
 .offer-ribbon{
     display:none!important;
+    min-height: 40px;
+    display: flex;
+    background: #FF903B;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-ribbon>div{
+    text-align:center;
+}
+.offer-ribbon span{
+    color: white;
+    width:100%;
 }
