@@ -56,6 +56,10 @@ app.get('/', (req, response) => {
     response.render('index');
 });
 
+app.get('/test-home', (req, response) => {
+    response.render('test-index');
+});
+
 
 
 app.get('/dum', (req, response) => {
