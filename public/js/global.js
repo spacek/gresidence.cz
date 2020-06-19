@@ -668,3 +668,19 @@ $('.new-slider-intro').slick({
     cssEase: 'linear'
 
 });
+
+$('.new-slider-1').slick({
+    dots: true,
+    arrows: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 6000,
+    infinite: true,
+    speed: 300,
+    fade: true,
+    cssEase: 'linear'
+});

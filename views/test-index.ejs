@@ -45,6 +45,7 @@
             clear:both;
             font-size:100px;
             margin-top: 15vh;
+            text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
         }
         .new-slider-intro h5{
             color:white;
@@ -53,6 +54,7 @@
             position:relative;
             clear:both;
             font-size:30px;
+            text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
         }
         .new-slider-intro .slick-dots{
             position: relative;
@@ -65,6 +67,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position:relative;
+            top:10em;
         }
         .new-slider-intro .new-ctas a{
             margin: 0 1em;
@@ -80,6 +84,9 @@
             .new-slider-intro h5{
                 font-size: 24px !important;
             }
+            .new-slider-intro .new-ctas{
+                top: 5em;
+            }
         }
         @media (max-width: 767px){
             .new-slider-intro h4{
@@ -94,6 +101,12 @@
             }
         }
 
+        .new-slider-1 .slide{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
     </style>
     <section class="section-intro mb0">
         <h1 class="blind">G Residence</h1>
@@ -102,7 +115,7 @@
                 <h4 class='new-header'>Blízko Praze,<br />ještě blíž přírodě.</h4>
                 <h5 class='new-header-sm'>Hoďte rušné velkoměsto za hlavu.<br />Objevte pohodové bydlení v G&nbsp;Residence v&nbsp;Unhošti západně od Prahy.</h5>
                 <div class="new-ctas">
-                    <a href="https://gresidence.cz/byt/c107" class="button">Více o projektu</a>
+                    <a href="https://gresidence.cz/byt/c107" class="button blue">Více o projektu</a>
                     <a href="https://gresidence.cz/cenik" class="button">Ceník</a>
                 </div>
             </div>
@@ -110,23 +123,17 @@
                 <h4 class='new-header'>Poslední byt 3+kk<br />s cashbackem 500&nbsp;000&nbsp;Kč</h4>
                 <h5 class='new-header-sm'>Hoďte rušné velkoměsto za hlavu.<br />Objevte pohodové bydlení v G Residence v Unhošti západně od Prahy.</h5>
                 <div class="new-ctas">
-                    <a href="https://gresidence.cz/byt/c107" class="button">Mám zájem</a>
+                    <a href="https://gresidence.cz/byt/c107" class="button blue">Mám zájem</a>
                 </div>
             </div>
             <div class="slide slide-3">
                 <h4 class='new-header'>Atraktivní bydlení<br />v&nbsp;Unhošti</h4>
                 <h5 class='new-header-sm'>Nyní ke koupi 3+kk dostanete 2 parkovací místav hodnotě 320&nbsp;000&nbsp;Kč zdarma!</h5>
                 <div class="new-ctas">
-                    <a href="https://gresidence.cz/byt/c107" class="button">Mám zájem</a>
+                    <a href="https://gresidence.cz/byt/c107" class="button blue">Mám zájem</a>
                 </div>
             </div>
         </div>
-        <!-- <div class="video-container">
-            <video autoplay loop muted playsinline poster="./images/video-cover.jpg">
-                <source src="./video/cover.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div> -->
         <a href="#about" rel='m_PageScroll2id' class="mouse">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                  y="0px"
@@ -143,7 +150,80 @@
             </svg>
         </a>
     </section>
-    <section>Second slider</section>
+    <section>
+        <div class="new-slider-1">
+            <div class="slide slide-1">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+            <div class="slide slide-2">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+            <div class="slide slide-4">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+            <div class="slide slide-5">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+            <div class="slide slide-6">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+            <div class="slide slide-7">
+                <div class="left">
+                    <img src="./images/icons/sun-weather.svg" alt="Sun weather" class="slider-icon" width='200'>
+                    <h4 class="slider-header">Unhošť<br />je pro každého</h4>
+                    <h5 class="slider-header-sm">Ať už jste freelancer pořizující první bydlení, senior toužící po přírodě nebo velká rodina, v Unhošti si najdete to své.</h5>
+                </div>
+                <div class="right">
+                    <div class="background-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section>Third slider</section>
     <section>Fourth slider</section>
 
