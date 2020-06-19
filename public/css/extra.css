@@ -1,3 +1,15 @@
+button.green{
+    color: #fff;
+    background: #4D9452;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+button.green:hover{
+    background: #4D9452;
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.4);
+}
+.section-flat-detail .flat-contact .box{
+    background: linear-gradient(180deg, rgba(255,247,235,1) 0%, rgba(252,214,186,1) 100%);
+}
 .stickyBtn{
     width: 88px;
     height: 88px;
