@@ -48,13 +48,28 @@
         }
         .new-slider-intro h5{
             color:white;
-            font-weight: bold;
+            font-weight: normal;
             margin-bottom:0;
             position:relative;
             clear:both;
             font-size:30px;
         }
-
+        .new-slider-intro .slick-dots{
+            position: relative;
+            top:-20px;
+        }
+        .new-slider-intro .slick-dots li button{
+            background: #fff;
+        }
+        .new-slider-intro .new-ctas{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .new-slider-intro .new-ctas a{
+            margin: 0 1em;
+            min-width: 300px;
+        }
         @media (max-width: 1020px){
             .section-intro, .new-slider-intro .slide-1, .new-slider-intro .slide-2, .new-slider-intro .slide-3{
                 height: calc(100vh - 82px);
@@ -73,6 +88,10 @@
             .new-slider-intro h5{
                 font-size: 18px !important;
             }
+            .new-slider-intro .new-ctas a{
+                margin: 0 0.5em;
+                min-width: 160px;
+            }
         }
 
     </style>
@@ -83,22 +102,22 @@
                 <h4 class='new-header'>Blízko Praze,<br />ještě blíž přírodě.</h4>
                 <h5 class='new-header-sm'>Hoďte rušné velkoměsto za hlavu.<br />Objevte pohodové bydlení v G&nbsp;Residence v&nbsp;Unhošti západně od Prahy.</h5>
                 <div class="new-ctas">
-                    <a href="https://gresidence.cz/byt/c107" class="button newHeadButton">Více o projektu</a>
-                    <a href="https://gresidence.cz/cenik" class="button newHeadButton">Ceník</a>
+                    <a href="https://gresidence.cz/byt/c107" class="button">Více o projektu</a>
+                    <a href="https://gresidence.cz/cenik" class="button">Ceník</a>
                 </div>
             </div>
             <div class="slide slide-2">
                 <h4 class='new-header'>Poslední byt 3+kk<br />s cashbackem 500&nbsp;000&nbsp;Kč</h4>
                 <h5 class='new-header-sm'>Hoďte rušné velkoměsto za hlavu.<br />Objevte pohodové bydlení v G Residence v Unhošti západně od Prahy.</h5>
                 <div class="new-ctas">
-                    <a href="https://gresidence.cz/byt/c107" class="button newHeadButton">Mám zájem</a>
+                    <a href="https://gresidence.cz/byt/c107" class="button">Mám zájem</a>
                 </div>
             </div>
             <div class="slide slide-3">
                 <h4 class='new-header'>Atraktivní bydlení<br />v&nbsp;Unhošti</h4>
                 <h5 class='new-header-sm'>Nyní ke koupi 3+kk dostanete 2 parkovací místav hodnotě 320&nbsp;000&nbsp;Kč zdarma!</h5>
                 <div class="new-ctas">
-                    <a href="https://gresidence.cz/byt/c107" class="button newHeadButton">Mám zájem</a>
+                    <a href="https://gresidence.cz/byt/c107" class="button">Mám zájem</a>
                 </div>
             </div>
         </div>
