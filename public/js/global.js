@@ -653,7 +653,7 @@ function post(path, params, method) {
 
 // Slider new
 $('.new-slider-intro').slick({
-    dots: false,
+    dots: true,
     arrows: false,
     pauseOnFocus: false,
     pauseOnHover: false,
