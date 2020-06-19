@@ -648,3 +648,23 @@ function post(path, params, method) {
     document.body.appendChild(form);
     //form.submit();
 }
+
+
+
+// Slider new
+$('.new-slider-intro').slick({
+    dots: false,
+    arrows: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    infinite: true,
+    speed: 300,
+    fade: true,
+    cssEase: 'linear'
+
+});
