@@ -42,6 +42,22 @@
                         <br><span>
                             <% if (data.Availability__c === 'Available') { %>
                                 <%= String(data.Price_incl_VAT__c).replace(/(.)(?=(\d{3})+$)/g, '$1 ') %> Kč s DPH
+                            <% } else if (data.Availability__c === 'SBK signed') { %>
+                                Prodáno
+                            <% } else if (data.Availability__c === 'Purchase Contract') { %>
+                                Prodáno
+                            <% } else if (data.Availability__c === 'Sold') { %>
+                                Prodáno
+                            <% } else if (data.Availability__c === 'Future Contract') { %>
+                                Prodáno
+                            <% } else if (data.Availability__c === 'Reserved') { %>
+                                Rezervováno
+                            <% } else if (data.Availability__c === 'Reservation Contract') { %>
+                                Rezervováno
+                            <% } else if (data.Availability__c === 'Pre-Reserved') { %>
+                                Rezervováno
+                            <% } else { %>
+                                &nbsp;
                             <% } %>
                         </span>
                     </h3>
