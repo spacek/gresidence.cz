@@ -4,10 +4,12 @@ button.green{
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 button.green:hover{
+    color: #fff;
     background: #4D9452;
     box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.4);
 }
 button.green:active{
+    color: #fff;
     background: #4D9452;
 }
 .section-flat-detail .flat-contact .box{
