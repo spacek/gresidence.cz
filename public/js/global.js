@@ -701,3 +701,4 @@ function onResize (){
     }
 }
 $(window).resize(onResize); 
+onResize();
