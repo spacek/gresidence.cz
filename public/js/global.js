@@ -322,18 +322,6 @@ $(document).ready(
         //     offset_top: 82
         // });
 
-        function onResize (){
-            let width = $(window).width();
-            if(width < 1201){
-                $(".sticky").trigger("sticky_kit:detach");
-            }
-        }
-        $(window).resize(onResize); 
-        $(".sticky").stick_in_parent({
-            offset_top: 82
-        });
-        onResize();// first time;
-
         $(".js-day").click(function () {
             $(".js-day-and-night").removeClass("night");
             $(".section-day-and-night").removeClass("night");
@@ -684,3 +672,32 @@ $('.new-slider-1').slick({
     fade: true,
     cssEase: 'linear'
 });
+
+
+function onResize (){
+    let width = $(window).width();
+    if(width < 1201){
+        $(".sticky").trigger("sticky_kit:detach");
+        $('.flat-photos').slick({
+            dots: true,
+            arrows: false,
+            pauseOnFocus: true,
+            pauseOnHover: false,
+            pauseOnDotsHover: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 6000,
+            infinite: true,
+            speed: 300,
+            fade: true,
+            cssEase: 'linear'
+        });
+    }else{
+        $(".sticky").stick_in_parent({
+            offset_top: 82
+        });
+        $('.flat-photos').slick('unslick');
+    }
+}
+$(window).resize(onResize); 
