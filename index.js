@@ -110,6 +110,20 @@ app.post('/createLead', (req, response) => {
         response.end();
     }
 
+    function IntTwoChars(i) {
+        return (`0${i}`).slice(-2);
+    }
+    let ts = Date.now();
+    let date_ob = new Date(ts);
+
+    let date = IntTwoChars(date_ob.getDate());
+    let month = IntTwoChars(date_ob.getMonth() + 1);
+    let year = date_ob.getFullYear();
+    let hours = IntTwoChars(date_ob.getHours());
+    let minutes = IntTwoChars(date_ob.getMinutes());
+    let seconds = IntTwoChars(date_ob.getSeconds());
+    let dateDisplay = `${hours}:${minutes}:${seconds} ${month}/${date}/${year}`;
+
     const lead = {
         FirstName: FirstName,
         LastName: LastName,
@@ -135,7 +149,7 @@ app.post('/createLead', (req, response) => {
     };
 
     con.query('INSERT INTO leads SET ?', {
-        lead: JSON.stringify({...lead, createdDate: Date.now()})
+        lead: JSON.stringify({...lead, createdDate: dateDisplay})
     }, function (error, results, fields) {
         if (error) throw error;
         // Neat!
@@ -161,6 +175,20 @@ app.post('/byt/createLead', (req, response) => {
         response.redirect('/');
         response.end();
     }
+    
+    function IntTwoChars(i) {
+        return (`0${i}`).slice(-2);
+    }
+    let ts = Date.now();
+    let date_ob = new Date(ts);
+
+    let date = IntTwoChars(date_ob.getDate());
+    let month = IntTwoChars(date_ob.getMonth() + 1);
+    let year = date_ob.getFullYear();
+    let hours = IntTwoChars(date_ob.getHours());
+    let minutes = IntTwoChars(date_ob.getMinutes());
+    let seconds = IntTwoChars(date_ob.getSeconds());
+    let dateDisplay = `${hours}:${minutes}:${seconds} ${month}/${date}/${year}`;
 
     const lead = {
         FirstName: FirstName,
@@ -187,7 +215,7 @@ app.post('/byt/createLead', (req, response) => {
     };
 
     con.query('INSERT INTO leads SET ?', {
-        lead: JSON.stringify({...lead, createdDate: Date.now()})
+        lead: JSON.stringify({...lead, createdDate: dateDisplay})
     }, function (error, results, fields) {
         if (error) throw error;
         // Neat!
