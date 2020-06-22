@@ -130,11 +130,12 @@ app.post('/createLead', (req, response) => {
         UTM_CAMPAIGN__c: utmCampaignField,
         UTM_CONTENT__c: utmContentField,
         hotjarId__c: hotjarId,
+        HJ_VIdeo_Links__c: hotjarId ? `https://insights.hotjar.com/sites/1595767/playbacks/list?filters=%7B%22AND%22:%5B%7B%22DAYS_AGO%22:%7B%22created%22:30%7D%7D,%7B%22EQUAL%22:%7B%22visitor_uuid%22:%22${hotjarId}%22%7D%7D%5D%7D`: '',
         OwnerId: '0051p00000BiLq7AAF'
     };
 
     con.query('INSERT INTO leads SET ?', {
-        lead: JSON.stringify(lead)
+        lead: JSON.stringify({...lead, createdDate: Date.now()})
     }, function (error, results, fields) {
         if (error) throw error;
         // Neat!
@@ -181,11 +182,12 @@ app.post('/byt/createLead', (req, response) => {
         UTM_CAMPAIGN__c: utmCampaignField,
         UTM_CONTENT__c: utmContentField,
         hotjarId__c: hotjarId,
+        HJ_VIdeo_Links__c: hotjarId ? `https://insights.hotjar.com/sites/1595767/playbacks/list?filters=%7B%22AND%22:%5B%7B%22DAYS_AGO%22:%7B%22created%22:30%7D%7D,%7B%22EQUAL%22:%7B%22visitor_uuid%22:%22${hotjarId}%22%7D%7D%5D%7D`: '',
         OwnerId: '0051p00000BiLq7AAF'
     };
 
     con.query('INSERT INTO leads SET ?', {
-        lead: JSON.stringify(lead)
+        lead: JSON.stringify({...lead, createdDate: Date.now()})
     }, function (error, results, fields) {
         if (error) throw error;
         // Neat!
