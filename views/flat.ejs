@@ -37,12 +37,13 @@
                     </h1>
                     <h3>
                         <span><strong><%= data.Appt_Object_Type__c %></strong></span>
-                        <span><strong><%= data.Floor_Size__c %>
-                                <% if (data.Availability__c === 'Available') { %>
-                                    + <%= data.Balcony_Terrace_Footage__c %>
-                                <% } %>
+                        <span><strong><%= data.Floor_Size__c %> + <%= data.Balcony_Terrace_Footage__c %>
                                 m<sup>2</sup></strong></span>
-                        <br><span><%= String(data.Price_incl_VAT__c).replace(/(.)(?=(\d{3})+$)/g, '$1 ') %> Kč s DPH</span>
+                        <br><span>
+                            <% if (data.Availability__c === 'Available') { %>
+                                <%= String(data.Price_incl_VAT__c).replace(/(.)(?=(\d{3})+$)/g, '$1 ') %> Kč s DPH
+                            <% } %>
+                        </span>
                     </h3>
                     <table>
                         <tr>
