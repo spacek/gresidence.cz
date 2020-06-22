@@ -37,8 +37,7 @@
                     </h1>
                     <h3>
                         <span><strong><%= data.Appt_Object_Type__c %></strong></span>
-                        <span><strong><%= data.Floor_Size__c %> + <%= data.Balcony_Terrace_Footage__c %>
-                                m<sup>2</sup></strong></span>
+                        <span><strong><%= data.Floor_Size__c %> + <%= data.Balcony_Terrace_Footage__c %> m²</strong></span>
                         <br><span>
                             <% if (data.Availability__c === 'Available') { %>
                                 <%= String(data.Price_incl_VAT__c).replace(/(.)(?=(\d{3})+$)/g, '$1 ') %> Kč s DPH
@@ -71,7 +70,7 @@
                             <tr>
                                 <td><%= element.id %></td>
                                 <td><%= element.name %></td>
-                                <td><%= element.size %> m<sup>2</sup></td>
+                                <td><%= element.size %> m²</td>
                             </tr>
                         <% }) %>
                     </table>
