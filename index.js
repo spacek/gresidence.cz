@@ -56,7 +56,7 @@ app.get('/', (req, response) => {
     response.render('index');
 });
 
-app.get('/test-home', (req, response) => {
+app.get('*/test-home', (req, response) => {
     response.render('test-index');
 });
 
@@ -175,7 +175,7 @@ app.post('/byt/createLead', (req, response) => {
         response.redirect('/');
         response.end();
     }
-    
+
     function IntTwoChars(i) {
         return (`0${i}`).slice(-2);
     }
