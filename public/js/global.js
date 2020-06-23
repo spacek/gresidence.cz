@@ -693,11 +693,15 @@ function onResize (){
             fade: true,
             cssEase: 'linear'
         });
+
     }else{
         $(".sticky").stick_in_parent({
             offset_top: 82
         });
-        $('.flat-photos').slick('unslick');
+        if($('.flat-photos').hasClass('slick-initialized')){
+            $('.flat-photos').slick('unslick');
+        }
+        
     }
 }
 $(window).resize(onResize); 
