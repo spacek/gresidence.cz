@@ -678,22 +678,23 @@ function onResize (){
     let width = $(window).width();
     if(width < 1201){
         $(".sticky").trigger("sticky_kit:detach");
-        $('.flat-photos').slick({
-            dots: true,
-            arrows: false,
-            pauseOnFocus: true,
-            pauseOnHover: false,
-            pauseOnDotsHover: false,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 6000,
-            infinite: true,
-            speed: 300,
-            fade: true,
-            cssEase: 'linear'
-        });
-
+        if(!$('.flat-photos').hasClass('slick-initialized')){
+            $('.flat-photos').slick({
+                dots: true,
+                arrows: false,
+                pauseOnFocus: true,
+                pauseOnHover: false,
+                pauseOnDotsHover: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 6000,
+                infinite: true,
+                speed: 300,
+                fade: true,
+                cssEase: 'linear'
+            });
+        }
     }else{
         $(".sticky").stick_in_parent({
             offset_top: 82
