@@ -102,13 +102,13 @@ setTimeout(function() {
             hotjarIdFields.forEach(function (field) {
                 if(hjId){
                     field.value = hjId;
-                    console.log(hjId);
+                    // console.log(hjId);
                 }else {
                     field.value = '';
-                    console.log('No userId');
+                    // console.log('No userId');
                 }
             });
-        }, 2000);
+        }, 1000);
     }
     addGclidEtc();
-}, 2000);
+}, 1500);
