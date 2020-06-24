@@ -6,15 +6,15 @@
     text-align: center;
 }
 .new-slider-intro .slide-1{
-    background: url('./images/gres-day.jpg') center center/cover;
+    background: url('./test-home/images/gres-day.jpg') center center/cover;
     height:100vh;
 }
 .new-slider-intro .slide-2{
-    background: url('./images/loznice.jpg') center center/cover;
+    background: url('./test-home/images/loznice.jpg') center center/cover;
     height:100vh;
 }
 .new-slider-intro .slide-3{
-    background: url('./images/pokoj.jpg') center center/cover;
+    background: url('./test-home/images/pokoj.jpg') center center/cover;
     height:100vh;
 }
 .new-slider-intro h4{
